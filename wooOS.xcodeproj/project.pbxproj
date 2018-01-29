@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239D7F033BF76321B00DADED /* Pods_wooOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360C8E498A1E9C5F04855E03 /* Pods_wooOSTests.framework */; };
+		727A4D7827D9E0F51BFE1D57 /* Pods_wooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E64D726D7385CE40588441 /* Pods_wooOS.framework */; };
+		C9251E70201F343900B37ED7 /* WooProductCategoryDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E54201F343700B37ED7 /* WooProductCategoryDisplay.swift */; };
+		C9251E71201F343900B37ED7 /* WooProductCategoryRequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E55201F343700B37ED7 /* WooProductCategoryRequestParameter.swift */; };
+		C9251E72201F343900B37ED7 /* WooProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E56201F343700B37ED7 /* WooProductCategory.swift */; };
+		C9251E73201F343900B37ED7 /* WooOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E57201F343700B37ED7 /* WooOS.swift */; };
+		C9251E74201F343900B37ED7 /* WooAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E59201F343700B37ED7 /* WooAddress.swift */; };
+		C9251E75201F343900B37ED7 /* WooCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5A201F343700B37ED7 /* WooCustomer.swift */; };
+		C9251E76201F343900B37ED7 /* WooDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5B201F343700B37ED7 /* WooDeepLink.swift */; };
+		C9251E77201F343900B37ED7 /* WooError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5D201F343800B37ED7 /* WooError.swift */; };
+		C9251E78201F343900B37ED7 /* WooSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5E201F343800B37ED7 /* WooSortOrder.swift */; };
+		C9251E79201F343900B37ED7 /* WooOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5F201F343800B37ED7 /* WooOrderBy.swift */; };
+		C9251E7A201F343900B37ED7 /* WooAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E60201F343800B37ED7 /* WooAPI.swift */; };
+		C9251E7B201F343900B37ED7 /* WooRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E61201F343800B37ED7 /* WooRequestType.swift */; };
+		C9251E7C201F343900B37ED7 /* WooCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E62201F343800B37ED7 /* WooCart.swift */; };
+		C9251E7D201F343900B37ED7 /* WooOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E64201F343800B37ED7 /* WooOrder.swift */; };
+		C9251E7E201F343900B37ED7 /* WooPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E65201F343800B37ED7 /* WooPaymentDetails.swift */; };
+		C9251E7F201F343900B37ED7 /* WooLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E66201F343800B37ED7 /* WooLineItem.swift */; };
+		C9251E80201F343900B37ED7 /* ObjectMapper+FloatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E67201F343800B37ED7 /* ObjectMapper+FloatTransform.swift */; };
+		C9251E81201F343900B37ED7 /* WooProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E69201F343900B37ED7 /* WooProduct.swift */; };
+		C9251E82201F343900B37ED7 /* WooProductAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6A201F343900B37ED7 /* WooProductAttribute.swift */; };
+		C9251E83201F343900B37ED7 /* WooProductMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6B201F343900B37ED7 /* WooProductMetaData.swift */; };
+		C9251E84201F343900B37ED7 /* WooProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6C201F343900B37ED7 /* WooProductImage.swift */; };
+		C9251E85201F343900B37ED7 /* WooProductRequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6D201F343900B37ED7 /* WooProductRequestParameter.swift */; };
+		C9251E86201F343900B37ED7 /* WooProductVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6E201F343900B37ED7 /* WooProductVariation.swift */; };
+		C9251E87201F343900B37ED7 /* WooProductDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6F201F343900B37ED7 /* WooProductDisplay.swift */; };
+		C9706E31201F2E0400CE1C33 /* wooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9706E27201F2E0400CE1C33 /* wooOS.framework */; };
+		C9706E36201F2E0400CE1C33 /* wooOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706E35201F2E0400CE1C33 /* wooOSTests.swift */; };
+		C9706E38201F2E0400CE1C33 /* wooOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C9706E2A201F2E0400CE1C33 /* wooOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9706E32201F2E0400CE1C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9706E1E201F2E0400CE1C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9706E26201F2E0400CE1C33;
+			remoteInfo = wooOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0274F0D9F495253B2B643727 /* Pods-wooOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wooOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wooOSTests/Pods-wooOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20E64D726D7385CE40588441 /* Pods_wooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25862672CD19D0AF6F08C5E1 /* Pods-wooOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wooOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wooOSTests/Pods-wooOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		360C8E498A1E9C5F04855E03 /* Pods_wooOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wooOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9251E54201F343700B37ED7 /* WooProductCategoryDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductCategoryDisplay.swift; sourceTree = "<group>"; };
+		C9251E55201F343700B37ED7 /* WooProductCategoryRequestParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductCategoryRequestParameter.swift; sourceTree = "<group>"; };
+		C9251E56201F343700B37ED7 /* WooProductCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductCategory.swift; sourceTree = "<group>"; };
+		C9251E57201F343700B37ED7 /* WooOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooOS.swift; sourceTree = "<group>"; };
+		C9251E59201F343700B37ED7 /* WooAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooAddress.swift; sourceTree = "<group>"; };
+		C9251E5A201F343700B37ED7 /* WooCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooCustomer.swift; sourceTree = "<group>"; };
+		C9251E5B201F343700B37ED7 /* WooDeepLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooDeepLink.swift; sourceTree = "<group>"; };
+		C9251E5D201F343800B37ED7 /* WooError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooError.swift; sourceTree = "<group>"; };
+		C9251E5E201F343800B37ED7 /* WooSortOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooSortOrder.swift; sourceTree = "<group>"; };
+		C9251E5F201F343800B37ED7 /* WooOrderBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooOrderBy.swift; sourceTree = "<group>"; };
+		C9251E60201F343800B37ED7 /* WooAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooAPI.swift; sourceTree = "<group>"; };
+		C9251E61201F343800B37ED7 /* WooRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooRequestType.swift; sourceTree = "<group>"; };
+		C9251E62201F343800B37ED7 /* WooCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooCart.swift; sourceTree = "<group>"; };
+		C9251E64201F343800B37ED7 /* WooOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooOrder.swift; sourceTree = "<group>"; };
+		C9251E65201F343800B37ED7 /* WooPaymentDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooPaymentDetails.swift; sourceTree = "<group>"; };
+		C9251E66201F343800B37ED7 /* WooLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooLineItem.swift; sourceTree = "<group>"; };
+		C9251E67201F343800B37ED7 /* ObjectMapper+FloatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjectMapper+FloatTransform.swift"; sourceTree = "<group>"; };
+		C9251E69201F343900B37ED7 /* WooProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProduct.swift; sourceTree = "<group>"; };
+		C9251E6A201F343900B37ED7 /* WooProductAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductAttribute.swift; sourceTree = "<group>"; };
+		C9251E6B201F343900B37ED7 /* WooProductMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductMetaData.swift; sourceTree = "<group>"; };
+		C9251E6C201F343900B37ED7 /* WooProductImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductImage.swift; sourceTree = "<group>"; };
+		C9251E6D201F343900B37ED7 /* WooProductRequestParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductRequestParameter.swift; sourceTree = "<group>"; };
+		C9251E6E201F343900B37ED7 /* WooProductVariation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductVariation.swift; sourceTree = "<group>"; };
+		C9251E6F201F343900B37ED7 /* WooProductDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductDisplay.swift; sourceTree = "<group>"; };
+		C9706E27201F2E0400CE1C33 /* wooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9706E2A201F2E0400CE1C33 /* wooOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wooOS.h; sourceTree = "<group>"; };
+		C9706E2B201F2E0400CE1C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9706E30201F2E0400CE1C33 /* wooOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wooOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9706E35201F2E0400CE1C33 /* wooOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wooOSTests.swift; sourceTree = "<group>"; };
+		C9706E37201F2E0400CE1C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFFB8095957484C674475CA /* Pods-wooOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wooOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wooOS/Pods-wooOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F554ECDB7E187329B9F9BB4A /* Pods-wooOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wooOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-wooOS/Pods-wooOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9706E23201F2E0400CE1C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727A4D7827D9E0F51BFE1D57 /* Pods_wooOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9706E2D201F2E0400CE1C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9706E31201F2E0400CE1C33 /* wooOS.framework in Frameworks */,
+				239D7F033BF76321B00DADED /* Pods_wooOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C362DA40CA22687B1FAD5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDFFB8095957484C674475CA /* Pods-wooOS.debug.xcconfig */,
+				F554ECDB7E187329B9F9BB4A /* Pods-wooOS.release.xcconfig */,
+				0274F0D9F495253B2B643727 /* Pods-wooOSTests.debug.xcconfig */,
+				25862672CD19D0AF6F08C5E1 /* Pods-wooOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB6C0D1735322DB418BBBC46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20E64D726D7385CE40588441 /* Pods_wooOS.framework */,
+				360C8E498A1E9C5F04855E03 /* Pods_wooOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9251E53201F343700B37ED7 /* WooProductCategory */ = {
+			isa = PBXGroup;
+			children = (
+				C9251E54201F343700B37ED7 /* WooProductCategoryDisplay.swift */,
+				C9251E55201F343700B37ED7 /* WooProductCategoryRequestParameter.swift */,
+				C9251E56201F343700B37ED7 /* WooProductCategory.swift */,
+			);
+			path = WooProductCategory;
+			sourceTree = "<group>";
+		};
+		C9251E58201F343700B37ED7 /* WooCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				C9251E59201F343700B37ED7 /* WooAddress.swift */,
+				C9251E5A201F343700B37ED7 /* WooCustomer.swift */,
+			);
+			path = WooCustomer;
+			sourceTree = "<group>";
+		};
+		C9251E5C201F343800B37ED7 /* WooAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C9251E5D201F343800B37ED7 /* WooError.swift */,
+				C9251E5E201F343800B37ED7 /* WooSortOrder.swift */,
+				C9251E5F201F343800B37ED7 /* WooOrderBy.swift */,
+				C9251E60201F343800B37ED7 /* WooAPI.swift */,
+				C9251E61201F343800B37ED7 /* WooRequestType.swift */,
+			);
+			path = WooAPI;
+			sourceTree = "<group>";
+		};
+		C9251E63201F343800B37ED7 /* WooOrder */ = {
+			isa = PBXGroup;
+			children = (
+				C9251E64201F343800B37ED7 /* WooOrder.swift */,
+				C9251E65201F343800B37ED7 /* WooPaymentDetails.swift */,
+				C9251E66201F343800B37ED7 /* WooLineItem.swift */,
+			);
+			path = WooOrder;
+			sourceTree = "<group>";
+		};
+		C9251E68201F343900B37ED7 /* WooProduct */ = {
+			isa = PBXGroup;
+			children = (
+				C9251E69201F343900B37ED7 /* WooProduct.swift */,
+				C9251E6A201F343900B37ED7 /* WooProductAttribute.swift */,
+				C9251E6B201F343900B37ED7 /* WooProductMetaData.swift */,
+				C9251E6C201F343900B37ED7 /* WooProductImage.swift */,
+				C9251E6D201F343900B37ED7 /* WooProductRequestParameter.swift */,
+				C9251E6E201F343900B37ED7 /* WooProductVariation.swift */,
+				C9251E6F201F343900B37ED7 /* WooProductDisplay.swift */,
+			);
+			path = WooProduct;
+			sourceTree = "<group>";
+		};
+		C9706E1D201F2E0400CE1C33 = {
+			isa = PBXGroup;
+			children = (
+				C9706E29201F2E0400CE1C33 /* wooOS */,
+				C9706E34201F2E0400CE1C33 /* wooOSTests */,
+				C9706E28201F2E0400CE1C33 /* Products */,
+				A5C362DA40CA22687B1FAD5B /* Pods */,
+				AB6C0D1735322DB418BBBC46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9706E28201F2E0400CE1C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9706E27201F2E0400CE1C33 /* wooOS.framework */,
+				C9706E30201F2E0400CE1C33 /* wooOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9706E29201F2E0400CE1C33 /* wooOS */ = {
+			isa = PBXGroup;
+			children = (
+				C9251E67201F343800B37ED7 /* ObjectMapper+FloatTransform.swift */,
+				C9251E5C201F343800B37ED7 /* WooAPI */,
+				C9251E62201F343800B37ED7 /* WooCart.swift */,
+				C9251E58201F343700B37ED7 /* WooCustomer */,
+				C9251E5B201F343700B37ED7 /* WooDeepLink.swift */,
+				C9251E63201F343800B37ED7 /* WooOrder */,
+				C9251E57201F343700B37ED7 /* WooOS.swift */,
+				C9251E68201F343900B37ED7 /* WooProduct */,
+				C9251E53201F343700B37ED7 /* WooProductCategory */,
+				C9706E2A201F2E0400CE1C33 /* wooOS.h */,
+				C9706E2B201F2E0400CE1C33 /* Info.plist */,
+			);
+			path = wooOS;
+			sourceTree = "<group>";
+		};
+		C9706E34201F2E0400CE1C33 /* wooOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9706E35201F2E0400CE1C33 /* wooOSTests.swift */,
+				C9706E37201F2E0400CE1C33 /* Info.plist */,
+			);
+			path = wooOSTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C9706E24201F2E0400CE1C33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9706E38201F2E0400CE1C33 /* wooOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9706E26201F2E0400CE1C33 /* wooOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9706E3B201F2E0500CE1C33 /* Build configuration list for PBXNativeTarget "wooOS" */;
+			buildPhases = (
+				A7961D630A89270EE3A26522 /* [CP] Check Pods Manifest.lock */,
+				C9706E22201F2E0400CE1C33 /* Sources */,
+				C9706E23201F2E0400CE1C33 /* Frameworks */,
+				C9706E24201F2E0400CE1C33 /* Headers */,
+				C9706E25201F2E0400CE1C33 /* Resources */,
+				4D08C635B1F239D157FDB2CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wooOS;
+			productName = wooOS;
+			productReference = C9706E27201F2E0400CE1C33 /* wooOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9706E2F201F2E0400CE1C33 /* wooOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9706E3E201F2E0500CE1C33 /* Build configuration list for PBXNativeTarget "wooOSTests" */;
+			buildPhases = (
+				E657BF306E1AD057450B16DD /* [CP] Check Pods Manifest.lock */,
+				C9706E2C201F2E0400CE1C33 /* Sources */,
+				C9706E2D201F2E0400CE1C33 /* Frameworks */,
+				C9706E2E201F2E0400CE1C33 /* Resources */,
+				7CA304A417E019349F2835A9 /* [CP] Embed Pods Frameworks */,
+				CE147B5A76D6B3ECFD6B6E92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9706E33201F2E0400CE1C33 /* PBXTargetDependency */,
+			);
+			name = wooOSTests;
+			productName = wooOSTests;
+			productReference = C9706E30201F2E0400CE1C33 /* wooOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9706E1E201F2E0400CE1C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Owly Design";
+				TargetAttributes = {
+					C9706E26201F2E0400CE1C33 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					C9706E2F201F2E0400CE1C33 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9706E21201F2E0400CE1C33 /* Build configuration list for PBXProject "wooOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9706E1D201F2E0400CE1C33;
+			productRefGroup = C9706E28201F2E0400CE1C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9706E26201F2E0400CE1C33 /* wooOS */,
+				C9706E2F201F2E0400CE1C33 /* wooOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9706E25201F2E0400CE1C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9706E2E201F2E0400CE1C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D08C635B1F239D157FDB2CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wooOS/Pods-wooOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA304A417E019349F2835A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wooOSTests/Pods-wooOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7961D630A89270EE3A26522 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE147B5A76D6B3ECFD6B6E92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wooOSTests/Pods-wooOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E657BF306E1AD057450B16DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9706E22201F2E0400CE1C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9251E85201F343900B37ED7 /* WooProductRequestParameter.swift in Sources */,
+				C9251E7E201F343900B37ED7 /* WooPaymentDetails.swift in Sources */,
+				C9251E77201F343900B37ED7 /* WooError.swift in Sources */,
+				C9251E79201F343900B37ED7 /* WooOrderBy.swift in Sources */,
+				C9251E72201F343900B37ED7 /* WooProductCategory.swift in Sources */,
+				C9251E7C201F343900B37ED7 /* WooCart.swift in Sources */,
+				C9251E7B201F343900B37ED7 /* WooRequestType.swift in Sources */,
+				C9251E73201F343900B37ED7 /* WooOS.swift in Sources */,
+				C9251E7D201F343900B37ED7 /* WooOrder.swift in Sources */,
+				C9251E7F201F343900B37ED7 /* WooLineItem.swift in Sources */,
+				C9251E78201F343900B37ED7 /* WooSortOrder.swift in Sources */,
+				C9251E82201F343900B37ED7 /* WooProductAttribute.swift in Sources */,
+				C9251E70201F343900B37ED7 /* WooProductCategoryDisplay.swift in Sources */,
+				C9251E86201F343900B37ED7 /* WooProductVariation.swift in Sources */,
+				C9251E87201F343900B37ED7 /* WooProductDisplay.swift in Sources */,
+				C9251E81201F343900B37ED7 /* WooProduct.swift in Sources */,
+				C9251E84201F343900B37ED7 /* WooProductImage.swift in Sources */,
+				C9251E76201F343900B37ED7 /* WooDeepLink.swift in Sources */,
+				C9251E83201F343900B37ED7 /* WooProductMetaData.swift in Sources */,
+				C9251E75201F343900B37ED7 /* WooCustomer.swift in Sources */,
+				C9251E7A201F343900B37ED7 /* WooAPI.swift in Sources */,
+				C9251E80201F343900B37ED7 /* ObjectMapper+FloatTransform.swift in Sources */,
+				C9251E71201F343900B37ED7 /* WooProductCategoryRequestParameter.swift in Sources */,
+				C9251E74201F343900B37ED7 /* WooAddress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9706E2C201F2E0400CE1C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9706E36201F2E0400CE1C33 /* wooOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9706E33201F2E0400CE1C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9706E26201F2E0400CE1C33 /* wooOS */;
+			targetProxy = C9706E32201F2E0400CE1C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9706E39201F2E0400CE1C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9706E3A201F2E0400CE1C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9706E3C201F2E0500CE1C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFFB8095957484C674475CA /* Pods-wooOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 67AJUH7978;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = wooOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owlydesign.wooOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9706E3D201F2E0500CE1C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F554ECDB7E187329B9F9BB4A /* Pods-wooOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 67AJUH7978;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = wooOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owlydesign.wooOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9706E3F201F2E0500CE1C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0274F0D9F495253B2B643727 /* Pods-wooOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67AJUH7978;
+				INFOPLIST_FILE = wooOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owlydesign.wooOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9706E40201F2E0500CE1C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25862672CD19D0AF6F08C5E1 /* Pods-wooOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67AJUH7978;
+				INFOPLIST_FILE = wooOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owlydesign.wooOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9706E21201F2E0400CE1C33 /* Build configuration list for PBXProject "wooOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9706E39201F2E0400CE1C33 /* Debug */,
+				C9706E3A201F2E0400CE1C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9706E3B201F2E0500CE1C33 /* Build configuration list for PBXNativeTarget "wooOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9706E3C201F2E0500CE1C33 /* Debug */,
+				C9706E3D201F2E0500CE1C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9706E3E201F2E0500CE1C33 /* Build configuration list for PBXNativeTarget "wooOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9706E3F201F2E0500CE1C33 /* Debug */,
+				C9706E40201F2E0500CE1C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9706E1E201F2E0400CE1C33 /* Project object */;
+}
