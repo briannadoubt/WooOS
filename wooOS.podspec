@@ -19,8 +19,7 @@ wooOS is designed to be an easy-to-use iOS SDK for developers to easily connect 
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/bornbrie/wooOS.git", :tag => s.version }
-
+  s.source       = { :git => 'https://github.com/bornbrie/wooOS.git', :tag => s.version }
   s.source_files  = "wooOS/*.swift"
 
   s.frameworks = 'Alamofire', 'ObjectMapper'
