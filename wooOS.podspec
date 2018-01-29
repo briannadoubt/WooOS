@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "wooOS"
-  s.version      = "0.1"
+  s.version      = "0.1.2"
   s.license = 'MIT'
   s.summary      = "A WooCommerce REST API SDK written in Swift"
 
