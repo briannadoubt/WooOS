@@ -15,7 +15,6 @@
 		C9251E73201F343900B37ED7 /* WooOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E57201F343700B37ED7 /* WooOS.swift */; };
 		C9251E74201F343900B37ED7 /* WooAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E59201F343700B37ED7 /* WooAddress.swift */; };
 		C9251E75201F343900B37ED7 /* WooCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5A201F343700B37ED7 /* WooCustomer.swift */; };
-		C9251E76201F343900B37ED7 /* WooDeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5B201F343700B37ED7 /* WooDeepLink.swift */; };
 		C9251E77201F343900B37ED7 /* WooError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5D201F343800B37ED7 /* WooError.swift */; };
 		C9251E78201F343900B37ED7 /* WooSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5E201F343800B37ED7 /* WooSortOrder.swift */; };
 		C9251E79201F343900B37ED7 /* WooOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E5F201F343800B37ED7 /* WooOrderBy.swift */; };
@@ -25,7 +24,6 @@
 		C9251E7D201F343900B37ED7 /* WooOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E64201F343800B37ED7 /* WooOrder.swift */; };
 		C9251E7E201F343900B37ED7 /* WooPaymentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E65201F343800B37ED7 /* WooPaymentDetails.swift */; };
 		C9251E7F201F343900B37ED7 /* WooLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E66201F343800B37ED7 /* WooLineItem.swift */; };
-		C9251E80201F343900B37ED7 /* ObjectMapper+FloatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E67201F343800B37ED7 /* ObjectMapper+FloatTransform.swift */; };
 		C9251E81201F343900B37ED7 /* WooProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E69201F343900B37ED7 /* WooProduct.swift */; };
 		C9251E82201F343900B37ED7 /* WooProductAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6A201F343900B37ED7 /* WooProductAttribute.swift */; };
 		C9251E83201F343900B37ED7 /* WooProductMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6B201F343900B37ED7 /* WooProductMetaData.swift */; };
@@ -33,6 +31,8 @@
 		C9251E85201F343900B37ED7 /* WooProductRequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6D201F343900B37ED7 /* WooProductRequestParameter.swift */; };
 		C9251E86201F343900B37ED7 /* WooProductVariation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6E201F343900B37ED7 /* WooProductVariation.swift */; };
 		C9251E87201F343900B37ED7 /* WooProductDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E6F201F343900B37ED7 /* WooProductDisplay.swift */; };
+		C9251E8A201F437D00B37ED7 /* WooRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E89201F437D00B37ED7 /* WooRequestParameters.swift */; };
+		C9251E8C201F43F900B37ED7 /* WooCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9251E8B201F43F900B37ED7 /* WooCompletion.swift */; };
 		C9706E31201F2E0400CE1C33 /* wooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9706E27201F2E0400CE1C33 /* wooOS.framework */; };
 		C9706E36201F2E0400CE1C33 /* wooOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9706E35201F2E0400CE1C33 /* wooOSTests.swift */; };
 		C9706E38201F2E0400CE1C33 /* wooOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C9706E2A201F2E0400CE1C33 /* wooOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,7 +59,6 @@
 		C9251E57201F343700B37ED7 /* WooOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooOS.swift; sourceTree = "<group>"; };
 		C9251E59201F343700B37ED7 /* WooAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooAddress.swift; sourceTree = "<group>"; };
 		C9251E5A201F343700B37ED7 /* WooCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooCustomer.swift; sourceTree = "<group>"; };
-		C9251E5B201F343700B37ED7 /* WooDeepLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooDeepLink.swift; sourceTree = "<group>"; };
 		C9251E5D201F343800B37ED7 /* WooError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooError.swift; sourceTree = "<group>"; };
 		C9251E5E201F343800B37ED7 /* WooSortOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooSortOrder.swift; sourceTree = "<group>"; };
 		C9251E5F201F343800B37ED7 /* WooOrderBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooOrderBy.swift; sourceTree = "<group>"; };
@@ -69,7 +68,6 @@
 		C9251E64201F343800B37ED7 /* WooOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooOrder.swift; sourceTree = "<group>"; };
 		C9251E65201F343800B37ED7 /* WooPaymentDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooPaymentDetails.swift; sourceTree = "<group>"; };
 		C9251E66201F343800B37ED7 /* WooLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooLineItem.swift; sourceTree = "<group>"; };
-		C9251E67201F343800B37ED7 /* ObjectMapper+FloatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObjectMapper+FloatTransform.swift"; sourceTree = "<group>"; };
 		C9251E69201F343900B37ED7 /* WooProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProduct.swift; sourceTree = "<group>"; };
 		C9251E6A201F343900B37ED7 /* WooProductAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductAttribute.swift; sourceTree = "<group>"; };
 		C9251E6B201F343900B37ED7 /* WooProductMetaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductMetaData.swift; sourceTree = "<group>"; };
@@ -77,6 +75,8 @@
 		C9251E6D201F343900B37ED7 /* WooProductRequestParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductRequestParameter.swift; sourceTree = "<group>"; };
 		C9251E6E201F343900B37ED7 /* WooProductVariation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductVariation.swift; sourceTree = "<group>"; };
 		C9251E6F201F343900B37ED7 /* WooProductDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooProductDisplay.swift; sourceTree = "<group>"; };
+		C9251E89201F437D00B37ED7 /* WooRequestParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooRequestParameters.swift; sourceTree = "<group>"; };
+		C9251E8B201F43F900B37ED7 /* WooCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooCompletion.swift; sourceTree = "<group>"; };
 		C9706E27201F2E0400CE1C33 /* wooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9706E2A201F2E0400CE1C33 /* wooOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wooOS.h; sourceTree = "<group>"; };
 		C9706E2B201F2E0400CE1C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -152,9 +152,11 @@
 			children = (
 				C9251E5D201F343800B37ED7 /* WooError.swift */,
 				C9251E5E201F343800B37ED7 /* WooSortOrder.swift */,
+				C9251E89201F437D00B37ED7 /* WooRequestParameters.swift */,
 				C9251E5F201F343800B37ED7 /* WooOrderBy.swift */,
 				C9251E60201F343800B37ED7 /* WooAPI.swift */,
 				C9251E61201F343800B37ED7 /* WooRequestType.swift */,
+				C9251E8B201F43F900B37ED7 /* WooCompletion.swift */,
 			);
 			path = WooAPI;
 			sourceTree = "<group>";
@@ -206,13 +208,11 @@
 		C9706E29201F2E0400CE1C33 /* wooOS */ = {
 			isa = PBXGroup;
 			children = (
-				C9251E67201F343800B37ED7 /* ObjectMapper+FloatTransform.swift */,
-				C9251E5C201F343800B37ED7 /* WooAPI */,
-				C9251E62201F343800B37ED7 /* WooCart.swift */,
-				C9251E58201F343700B37ED7 /* WooCustomer */,
-				C9251E5B201F343700B37ED7 /* WooDeepLink.swift */,
-				C9251E63201F343800B37ED7 /* WooOrder */,
 				C9251E57201F343700B37ED7 /* WooOS.swift */,
+				C9251E62201F343800B37ED7 /* WooCart.swift */,
+				C9251E5C201F343800B37ED7 /* WooAPI */,
+				C9251E58201F343700B37ED7 /* WooCustomer */,
+				C9251E63201F343800B37ED7 /* WooOrder */,
 				C9251E68201F343900B37ED7 /* WooProduct */,
 				C9251E53201F343700B37ED7 /* WooProductCategory */,
 				C9706E2A201F2E0400CE1C33 /* wooOS.h */,
@@ -425,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9251E85201F343900B37ED7 /* WooProductRequestParameter.swift in Sources */,
+				C9251E8C201F43F900B37ED7 /* WooCompletion.swift in Sources */,
 				C9251E7E201F343900B37ED7 /* WooPaymentDetails.swift in Sources */,
 				C9251E77201F343900B37ED7 /* WooError.swift in Sources */,
 				C9251E79201F343900B37ED7 /* WooOrderBy.swift in Sources */,
@@ -441,13 +442,12 @@
 				C9251E87201F343900B37ED7 /* WooProductDisplay.swift in Sources */,
 				C9251E81201F343900B37ED7 /* WooProduct.swift in Sources */,
 				C9251E84201F343900B37ED7 /* WooProductImage.swift in Sources */,
-				C9251E76201F343900B37ED7 /* WooDeepLink.swift in Sources */,
 				C9251E83201F343900B37ED7 /* WooProductMetaData.swift in Sources */,
 				C9251E75201F343900B37ED7 /* WooCustomer.swift in Sources */,
 				C9251E7A201F343900B37ED7 /* WooAPI.swift in Sources */,
-				C9251E80201F343900B37ED7 /* ObjectMapper+FloatTransform.swift in Sources */,
 				C9251E71201F343900B37ED7 /* WooProductCategoryRequestParameter.swift in Sources */,
 				C9251E74201F343900B37ED7 /* WooAddress.swift in Sources */,
+				C9251E8A201F437D00B37ED7 /* WooRequestParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

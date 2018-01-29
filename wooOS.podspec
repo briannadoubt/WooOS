@@ -23,5 +23,6 @@ wooOS is designed to be an easy-to-use iOS SDK for developers to easily connect 
   s.source_files  = "wooOS/*.swift"
 
   s.frameworks = 'Alamofire', 'ObjectMapper'
+  s.swift_version = "3.2"
 
 end
