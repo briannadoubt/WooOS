@@ -30,11 +30,7 @@ then run
 ```
 pod install
 ```
-After Cocoapods takes care of adding the files to your project, add
-```
-import WooOS
-```
-to the top of each Swift file you that intend to use this library with.
+After Cocoapods takes care of adding the files to your project, add `import WooOS` to the top of each Swift file you that intend to use this library with.
 
 ### Usage (Unfinished)
 
