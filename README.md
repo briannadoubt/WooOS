@@ -11,19 +11,29 @@ WooOS will support Cocoapods in the near future. For now, please copy all files 
 ### Prerequisites
 
 You will require Cocoapods in order to install WooOS. If it is not installed on your system you can do so by running
-```$ sudo gem install cocoapods```
+```
+$ sudo gem install cocoapods
+```
 then in your project folder
-```pod init```
+```
+pod init
+```
 Make sure you are running your .xcworkspace in your project folder, and not the .xcproject file.
 
 ### Installing
 
 Add this to your pod file
-```pod WooOS```
+```
+pod WooOS
+```
 then run
-```pod install```
+```
+pod install
+```
 After Cocoapods takes care of adding the files to your project, add
-```import WooOS```
+```
+import WooOS
+```
 to the top of each Swift file you that intend to use this library with.
 
 ### Usage (Unfinished)
