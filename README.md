@@ -1,6 +1,6 @@
 # WooOS
 
-WooOS is a WooCommerce iOS SDK written in Swift. Designed to be intuitive and comprehensive, with most calls from the [WooCommerce REST API] supported to enable downloading the WooCommerce store's data.
+WooOS is a WooCommerce iOS SDK written in Swift. Designed to be intuitive and comprehensive, with most calls from the [WooCommerce REST API](http://woocommerce.github.io/woocommerce-rest-api-docs/) supported to enable downloading the WooCommerce store's data.
 
 PLEASE NOTE: This is beta software. While it is functional this library is not bug free. Please use this code at your own risk!
 
