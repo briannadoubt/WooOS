@@ -26,11 +26,11 @@ After Cocoapods takes care of adding the files to your project, add
 ```import WooOS```
 to the top of each Swift file you that intend to use this library with.
 
-## Usage (Unfinished)
+### Usage (Unfinished)
 
 
 
-## Built With
+### Built With
 
 * [Alamofire](https://github.com/Alamofire/Alamofire/) - Elegant HTTP Networking in Swift
 * [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper/) - ObjectMapper is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON.
@@ -38,17 +38,17 @@ to the top of each Swift file you that intend to use this library with.
 HEAVILY INSPIRED BY AND ADAPTED FROM
 * [WooCommerceSDK](https://github.com/minhcasi/WooCommerceSDK) - WooCommerce SDK for iOS, OS X, tvOS and watchOS, written purely in Swift.
 
-## Versioning
+### Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bornbrie/WooOS/tags). 
 
-## Authors
+### Authors
 
 * **Brianna Lee** - *Initial work* - [Owly Design](https://owly.xyz) - [EightfoldYOGA](https://www.eightfold.yoga)
 
 See also the list of [contributors](https://github.com/bornbrie/WooOS/contributors) who participated in this project.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
