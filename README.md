@@ -2,7 +2,7 @@
 
 WooOS is a WooCommerce iOS SDK written in Swift. Designed to be intuitive and comprehensive, with most calls from the [WooCommerce REST API](http://woocommerce.github.io/woocommerce-rest-api-docs/) supported to enable downloading the WooCommerce store's data.
 
-PLEASE NOTE: This is beta software. While it is functional this library is not bug free. Please use this code at your own risk!
+**PLEASE NOTE:** This is beta software. While it is functional this library is not bug free. Please use in production at your own risk, and contribute any fixes found by making a pull request. The help is much appreciated.
 
 ## Getting Started
 
@@ -10,7 +10,15 @@ WooOS will support Cocoapods in the near future. For now, please copy all files 
 
 ### Prerequisites
 
-You will require Cocoapods in order to install WooOS. If it is not installed on your system you can do so by running
+* Xcode 9+
+* Swift 4+
+* An active WooCommerce store running on a live Wordpress site
+
+#### Cocoapods
+
+**PLEASE NOTE:** Cocoapods does not work yet. This is a coming feature. For now, please download all the \*.swift files and import them into your project.
+
+You will require Cocoapods in order to embed WooOS into your Xcode project. If it is not installed on your system you can do so by running
 ```
 $ sudo gem install cocoapods
 ```
@@ -18,9 +26,15 @@ then in your project folder
 ```
 pod init
 ```
-Make sure you are running your .xcworkspace in your project folder, and not the .xcproject file.
+After a successful install, and in your Xcode project folder, make sure to open your .xcworkspace and not your .xcproject file.
+
+#### WooCommerce and Wordpress
+
+You will need an active WooCommerce store on a live Wordpress site in order for this SDK to work. Please make sure that you have set up an SSL certificate and are transmitting with all the standards of Apple's App Transport Security protocols.
 
 ### Installing
+
+**PLEASE NOTE:** Cocoapods does not work yet. This is a coming feature. For now, please download all the \*.swift files and import them into your project.
 
 Add this to your pod file
 ```
@@ -60,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments (Unfinished)
 
-* Hat tip to 
+* Hat tip to...
