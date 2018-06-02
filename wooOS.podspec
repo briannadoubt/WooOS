@@ -10,19 +10,19 @@ Pod::Spec.new do |s|
 wooOS is designed to be an easy-to-use iOS SDK for developers to easily connect to their WooCommerce store.
                    DESC
 
-  s.homepage     = "http://owly.design/wooOS"
-  s.author    = "Brianna Lee"
+  s.homepage     = "https://owly.xyz/wooOS"
+  s.documentation_url = "https://owly.xyz/wooOS"
+  s.author       = "Brianna Lee"
   s.social_media_url   = "http://twitter.com/bornbrie"
 
   s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.10"
   s.watchos.deployment_target = "2.0"
-  s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => 'https://github.com/bornbrie/wooOS.git', :tag => s.version }
+  s.source        = { :git => 'https://github.com/bornbrie/wooOS.git', :tag => s.version }
   s.source_files  = "wooOS/*.swift"
 
-  s.frameworks = 'Alamofire', 'ObjectMapper'
+  s.dependency 'Alamofire', '~> 4.6'
+  s.dependency 'ObjectMapper', '~> 3.1'
   s.swift_version = "3.2"
 
 end
