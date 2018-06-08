@@ -1,28 +1,21 @@
+Pod::Spec.new do |spec|
+spec.name = "WooOS"
+spec.version = "0.0.1"
+spec.summary = "Cross-platform Swift SDK for WooCommerce"
+spec.homepage = "https://github.com/bornbrie/WooOS"
+spec.license = { type: 'MIT', file: 'LICENSE' }
+spec.authors = { "Brianna Lee" => 'bornbrie@icloud.com' }
+spec.swift_version = '4.0'
 
-Pod::Spec.new do |s|
+spec.ios.deployment_target = '8.4'
+spec.watchos.deployment_target = '2.0'
+spec.tvos.deployment_target = '9.0'
+spec.macos.deployment_target = '10.11'
+spec.requires_arc = true
+spec.source = { git: "https://github.com/bornbrie/WooOS.git", tag: "v#{spec.version}", submodules: true }
+spec.source_files = "WooOS/**/*.{h,swift}"
 
-  s.name         = "wooOS"
-  s.version      = "0.1.2"
-  s.license = 'MIT'
-  s.summary      = "A WooCommerce REST API SDK written in Swift"
-
-  s.description  = <<-DESC
-wooOS is designed to be an easy-to-use iOS SDK for developers to easily connect to their WooCommerce store.
-                   DESC
-
-  s.homepage     = "https://owly.xyz/wooOS"
-  s.documentation_url = "https://owly.xyz/wooOS"
-  s.author       = "Brianna Lee"
-  s.social_media_url   = "http://twitter.com/bornbrie"
-
-  s.ios.deployment_target = "8.0"
-  s.watchos.deployment_target = "2.0"
-
-  s.source        = { :git => 'https://github.com/bornbrie/wooOS.git', :tag => s.version }
-  s.source_files  = "wooOS/*.swift"
-
-  s.dependency 'Alamofire', '~> 4.6'
-  s.dependency 'ObjectMapper', '~> 3.1'
-  s.swift_version = "3.2"
-
+spec.dependency 'Alamofire', '~> 4.7'
+spec.dependency 'ObjectMapper', '~> 3.2'
+spec.dependency 'Locksmith'
 end

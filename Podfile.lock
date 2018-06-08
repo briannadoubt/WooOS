@@ -1,15 +1,24 @@
 PODS:
-  - Alamofire (4.6.0)
-  - ObjectMapper (3.1.0)
+  - Alamofire (4.7.2)
+  - Locksmith (4.0.0)
+  - ObjectMapper (3.2.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.5)
-  - ObjectMapper
+  - Alamofire (~> 4.7)
+  - Locksmith
+  - ObjectMapper (~> 3.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Locksmith
+    - ObjectMapper
 
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
-  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
 
-PODFILE CHECKSUM: 153645fd8e81d56951f062297dbc08ebde35a9bf
+PODFILE CHECKSUM: 1c039e6c21253033571f9eb044b4d0e1201f2021
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3

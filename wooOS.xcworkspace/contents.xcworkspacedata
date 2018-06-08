@@ -2,9 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/brie/Documents/GitHub/wooOS/WooOS.xcodeproj">
+      location = "group:/Users/brie/Desktop/WooOS/WooOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Locksmith/Locksmith.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/ObjectMapper/ObjectMapper.xcodeproj">
    </FileRef>
 </Workspace>

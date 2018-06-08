@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_wooOSTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_wooOSTestsVersionString[];
+FOUNDATION_EXPORT double Pods_WooOSTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_WooOSTestsVersionString[];
 

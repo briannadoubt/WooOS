@@ -1,5 +1,5 @@
-framework module Pods_wooOS {
-  umbrella header "Pods-wooOS-umbrella.h"
+framework module Pods_WooOS {
+  umbrella header "Pods-WooOS-umbrella.h"
 
   export *
   module * { export * }

@@ -1,0 +1,15 @@
+[submodule "Carthage/Checkouts/Alamofire"]
+	path = Carthage/Checkouts/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Carthage/Checkouts/Locksmith"]
+	path = Carthage/Checkouts/Locksmith
+	url = https://github.com/matthewpalmer/Locksmith.git
+[submodule "Carthage/Checkouts/ObjectMapper"]
+	path = Carthage/Checkouts/ObjectMapper
+	url = https://github.com/Hearst-DD/ObjectMapper.git
+[submodule "Carthage/Checkouts/Nimble"]
+	path = Carthage/Checkouts/Nimble
+	url = https://github.com/Quick/Nimble.git
+[submodule "Carthage/Checkouts/Quick"]
+	path = Carthage/Checkouts/Quick
+	url = https://github.com/Quick/Quick.git

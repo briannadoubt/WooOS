@@ -1,19 +1,53 @@
-project 'wooOS.xcodeproj'
+platform :ios, '8.4'
 
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
-target 'wooOS' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+target 'WooOS-iOS' do
   use_frameworks!
 
-  # Pods for wooOS
-  pod 'Alamofire', '~> 4.5'
-  pod 'ObjectMapper'
+  pod 'Alamofire', '~> 4.7'
+  pod 'ObjectMapper', '~> 3.2'
+  pod 'Locksmith'
 
-  target 'wooOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+target 'WooOS-iOSTests' do
+  use_frameworks!
+  
+  pod 'Alamofire', '~> 4.7'
+  pod 'ObjectMapper', '~> 3.2'
+  pod 'Locksmith'
+  
+  
+target 'WooOS-watchOS' do
+  use_frameworks!
+  
+  pod 'Alamofire', '~> 4.7'
+  pod 'ObjectMapper', '~> 3.2'
+  pod 'Locksmith'
 
+target 'WooOS-tvOS' do
+    use_frameworks!
+    
+    pod 'Alamofire', '~> 4.7'
+    pod 'ObjectMapper', '~> 3.2'
+    pod 'Locksmith'
+
+target 'WooOS-tvOSTests' do
+    use_frameworks!
+    
+    pod 'Alamofire', '~> 4.7'
+    pod 'ObjectMapper', '~> 3.2'
+    pod 'Locksmith'
+    
+target 'WooOS-macOS' do
+    use_frameworks!
+    
+    pod 'Alamofire', '~> 4.7'
+    pod 'ObjectMapper', '~> 3.2'
+    pod 'Locksmith'
+    
+target 'WooOS-macOSTests' do
+    use_frameworks!
+    
+    pod 'Alamofire', '~> 4.7'
+    pod 'ObjectMapper', '~> 3.2'
+    pod 'Locksmith'
+    
 end

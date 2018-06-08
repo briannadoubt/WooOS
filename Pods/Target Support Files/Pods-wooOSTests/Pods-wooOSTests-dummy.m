@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_wooOSTests : NSObject
+@interface PodsDummy_Pods_WooOSTests : NSObject
 @end
-@implementation PodsDummy_Pods_wooOSTests
+@implementation PodsDummy_Pods_WooOSTests
 @end
