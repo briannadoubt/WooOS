@@ -595,8 +595,6 @@
 		01DDCCB720CB45B40069E001 /* WooSortResultsBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E622720C287C600E94400 /* WooSortResultsBy.swift */; };
 		01DDCCB820CB45B40069E001 /* WooCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E62D120C2917B00E94400 /* WooCompletion.swift */; };
 		01DDCCB920CB45B60069E001 /* WooOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E621420C287C500E94400 /* WooOS.swift */; };
-		6FF21C7D68D123F48D102DB3 /* Pods_WooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C16AE391C2460A5EC7C910B /* Pods_WooOS.framework */; };
-		EF6C2CD3F6E37F28CBACC2E2 /* Pods_WooOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CBC83126C659D26C349D33 /* Pods_WooOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -731,12 +729,6 @@
 		01DDCC7120CB3C990069E001 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DDCC7220CB3C990069E001 /* Locksmith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Locksmith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DDCC7320CB3C990069E001 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05CBC83126C659D26C349D33 /* Pods_WooOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WooOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C16AE391C2460A5EC7C910B /* Pods_WooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A46B4302451D85344A45427 /* Pods-WooOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WooOS/Pods-WooOS.debug.xcconfig"; sourceTree = "<group>"; };
-		88EF614810E1EE18316D6977 /* Pods-WooOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WooOS/Pods-WooOS.release.xcconfig"; sourceTree = "<group>"; };
-		911B65E975B49884EB9D2E6A /* Pods-WooOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WooOSTests/Pods-WooOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		9C232127424FE5DD5F746E1A /* Pods-WooOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WooOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WooOSTests/Pods-WooOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -747,7 +739,6 @@
 				01DDCC5C20CB3C530069E001 /* Alamofire.framework in Frameworks */,
 				01DDCC5D20CB3C530069E001 /* Locksmith.framework in Frameworks */,
 				01DDCC5E20CB3C530069E001 /* ObjectMapper.framework in Frameworks */,
-				6FF21C7D68D123F48D102DB3 /* Pods_WooOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,7 +747,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				017E61E620C2879900E94400 /* WooOS.framework in Frameworks */,
-				EF6C2CD3F6E37F28CBACC2E2 /* Pods_WooOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,8 +821,6 @@
 				01DDCC5F20CB3C530069E001 /* Alamofire.framework */,
 				01DDCC6020CB3C530069E001 /* Locksmith.framework */,
 				01DDCC6120CB3C530069E001 /* ObjectMapper.framework */,
-				4C16AE391C2460A5EC7C910B /* Pods_WooOS.framework */,
-				05CBC83126C659D26C349D33 /* Pods_WooOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -845,7 +833,6 @@
 				01DDCABC20C9007E0069E001 /* Info */,
 				01DDCC2D20CB04400069E001 /* WooOS Demo */,
 				017E61DD20C2879900E94400 /* Products */,
-				B177C26116938132E52B3CAF /* Pods */,
 				0138A2BA7A36A2AD009F14DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -1124,17 +1111,6 @@
 			path = "WooOS Demo";
 			sourceTree = "<group>";
 		};
-		B177C26116938132E52B3CAF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5A46B4302451D85344A45427 /* Pods-WooOS.debug.xcconfig */,
-				88EF614810E1EE18316D6977 /* Pods-WooOS.release.xcconfig */,
-				9C232127424FE5DD5F746E1A /* Pods-WooOSTests.debug.xcconfig */,
-				911B65E975B49884EB9D2E6A /* Pods-WooOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1174,7 +1150,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 017E61F020C2879900E94400 /* Build configuration list for PBXNativeTarget "WooOS-iOS" */;
 			buildPhases = (
-				4FE039294F93903588186B9D /* [CP] Check Pods Manifest.lock */,
 				017E61D720C2879900E94400 /* Sources */,
 				017E61D820C2879900E94400 /* Frameworks */,
 				017E61D920C2879900E94400 /* Headers */,
@@ -1193,11 +1168,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 017E61F320C2879900E94400 /* Build configuration list for PBXNativeTarget "WooOS-iOSTests" */;
 			buildPhases = (
-				64A49A7751548B240451EF8D /* [CP] Check Pods Manifest.lock */,
 				017E61E120C2879900E94400 /* Sources */,
 				017E61E220C2879900E94400 /* Frameworks */,
 				017E61E320C2879900E94400 /* Resources */,
-				EDA600B76BEC392BD7624ACF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1447,67 +1420,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4FE039294F93903588186B9D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WooOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64A49A7751548B240451EF8D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WooOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EDA600B76BEC392BD7624ACF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WooOSTests/Pods-WooOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WooOSTests/Pods-WooOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		017E61D720C2879900E94400 /* Sources */ = {
@@ -2290,7 +2202,6 @@
 		};
 		017E61F120C2879900E94400 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A46B4302451D85344A45427 /* Pods-WooOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2315,7 +2226,6 @@
 		};
 		017E61F220C2879900E94400 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88EF614810E1EE18316D6977 /* Pods-WooOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -2339,7 +2249,6 @@
 		};
 		017E61F420C2879900E94400 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C232127424FE5DD5F746E1A /* Pods-WooOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -2356,7 +2265,6 @@
 		};
 		017E61F520C2879900E94400 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 911B65E975B49884EB9D2E6A /* Pods-WooOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
