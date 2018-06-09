@@ -17,6 +17,6 @@ spec.source_files = "WooOS/**/*.{h,swift}"
 
 spec.dependency 'Alamofire', '~> 4.6'
 spec.dependency 'ObjectMapper', '~> 3.0'
-spec.dependency 'Locksmith', '~> 2.0'
+spec.dependency 'Locksmith'
 
 end
