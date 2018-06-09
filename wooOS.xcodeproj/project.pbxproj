@@ -623,6 +623,9 @@
 
 /* Begin PBXFileReference section */
 		01347C9520C3A8DF000DDB9C /* WooAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAPITests.swift; sourceTree = "<group>"; };
+		013E8BCF20CB617A00C05987 /* WooOS.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = WooOS.podspec; sourceTree = "<group>"; };
+		013E8BD020CB617A00C05987 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
+		013E8BD120CB617B00C05987 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		017E61DC20C2879900E94400 /* WooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		017E61DF20C2879900E94400 /* WooOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WooOS.h; sourceTree = "<group>"; };
 		017E61E020C2879900E94400 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -828,6 +831,9 @@
 		017E61D220C2879900E94400 = {
 			isa = PBXGroup;
 			children = (
+				013E8BD120CB617B00C05987 /* Cartfile */,
+				013E8BD020CB617A00C05987 /* Cartfile.private */,
+				013E8BCF20CB617A00C05987 /* WooOS.podspec */,
 				01DDCA9D20C8FB0C0069E001 /* WooOS */,
 				017E61E920C2879900E94400 /* Tests */,
 				01DDCABC20C9007E0069E001 /* Info */,
