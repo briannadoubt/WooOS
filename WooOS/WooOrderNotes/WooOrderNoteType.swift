@@ -13,7 +13,7 @@ import Foundation
 /// - any: All notes of any type.
 /// - customer: Only customer notes.
 /// - internalNote: Only internal notes.
-enum WooOrderNoteType: String {
+public enum WooOrderNoteType: String {
     case any = "any"
     case customer = "customer"
     case internalNote = "internal"

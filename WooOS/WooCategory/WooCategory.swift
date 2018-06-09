@@ -2,7 +2,7 @@ import Foundation
 import ObjectMapper
 
 /// A collection of products arranged into a category.
-class WooCategory: Mappable {
+public class WooCategory: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -37,11 +37,11 @@ class WooCategory: Mappable {
     /// Link to collection
     var collectionURLs: URL?
 
-    required init?(map: Map) {}
+    required public init?(map: Map) {}
 
     init() {}
 
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         slug <- map["slug"]

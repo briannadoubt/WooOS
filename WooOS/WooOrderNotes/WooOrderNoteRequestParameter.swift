@@ -12,11 +12,11 @@ import Foundation
 ///
 /// - context: Scope under which the request is made; determines fields present in response. Options: view and edit. Default is view.
 /// - type: Limit result to customers or internal notes. Options: any, customer and internal. Default is any.
-enum WooOrderNoteRequestParameter: WooRequestParameter {
+public enum WooOrderNoteRequestParameter: WooRequestParameter {
     case context(WooRequestContext)
     case type(WooOrderNoteType)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -25,7 +25,7 @@ enum WooOrderNoteRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

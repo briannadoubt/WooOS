@@ -13,7 +13,7 @@ import Foundation
 /// - percent: <#percent description#>
 /// - fixedCart: <#fixedCart description#>
 /// - fixedProduct: <#fixedProduct description#>
-enum WooCouponDiscountType: String {
+public enum WooCouponDiscountType: String {
     case percent = "percent"
     case fixedCart = "fixed_cart"
     case fixedProduct = "fixed_product"

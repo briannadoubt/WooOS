@@ -11,7 +11,7 @@ import ObjectMapper
 import Locksmith
 
 /// <#Description#>
-class WooCustomer: Mappable {
+public class WooCustomer: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -96,9 +96,9 @@ class WooCustomer: Mappable {
     
     init() { }
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         dateCreated <- map["date_created"]
         dateCreatedGMT <- map["date_created_gmt"]

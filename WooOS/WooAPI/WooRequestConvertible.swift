@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 import ObjectMapper
 
-enum WooRequestConvertible: URLRequestConvertible {
+public enum WooRequestConvertible: URLRequestConvertible {
     
     case coupons(parameters: [WooRequestParameter]?)
     case coupon(id: WooID)
@@ -393,7 +393,7 @@ enum WooRequestConvertible: URLRequestConvertible {
         }
     }
     
-    func asURLRequest() throws -> URLRequest {
+    public func asURLRequest() throws -> URLRequest {
         let fullPath = WooAPI.version + path
         var urlRequest = URLRequest(url: baseURL.appendingPathComponent(fullPath))
         urlRequest.httpMethod = method.rawValue

@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 /// <#Description#>
-class WooCoupon: Mappable {
+public class WooCoupon: Mappable {
     
     /// Unique identifier for the object.
     var id: WooID?
@@ -93,9 +93,9 @@ class WooCoupon: Mappable {
     /// Meta data. See Coupon - Meta data properties
     var metaData: [WooMetaData]?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         code <- map["code"]
         amount <- map["amount"]

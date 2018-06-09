@@ -15,7 +15,7 @@ import Foundation
 /// - include: Sort by which coupons that are to be indluded
 /// - title: Sort coupons by title
 /// - slug: Sort coupons by slug.
-enum WooCouponOrderBy: String {
+public enum WooCouponOrderBy: String {
     case date = "date"
     case id = "id"
     case include = "include"

@@ -27,7 +27,7 @@ import Foundation
 /// - customer: Limit result set to orders assigned a specific customer.
 /// - product: Limit result set to orders assigned a specific product.
 /// - decimalPoint: Number of decimal points to use in each resource. Default is 2.
-enum WooOrderRequestParameter: WooRequestParameter {
+public enum WooOrderRequestParameter: WooRequestParameter {
     
     case context(WooRequestContext)
     case page(Int)
@@ -47,7 +47,7 @@ enum WooOrderRequestParameter: WooRequestParameter {
     case product(WooID)
     case decimalPoint(Int)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -86,7 +86,7 @@ enum WooOrderRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

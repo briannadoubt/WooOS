@@ -22,7 +22,7 @@ import Foundation
 /// - hideEmpty: Whether to hide resources not assigned to any products. Default is false.
 /// - product: Limit result set to resources assigned to a specific product.
 /// - slug: Limit result set to resources with a specific slug.
-enum WooShippingClassRequestParameter: WooRequestParameter {
+public enum WooShippingClassRequestParameter: WooRequestParameter {
     
     case context(WooRequestContext)
     case page(Int)
@@ -37,7 +37,7 @@ enum WooShippingClassRequestParameter: WooRequestParameter {
     case product(WooID)
     case slug(String)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -66,7 +66,7 @@ enum WooShippingClassRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

@@ -9,7 +9,7 @@
 import Foundation
 
 /// Protocol that defines attributes of a request parameter state machine.
-protocol WooRequestParameter {
+public protocol WooRequestParameter {
     
     /// The path for the given parameter, used as the key in the parameter value.
     var key: String { get }
@@ -18,7 +18,7 @@ protocol WooRequestParameter {
     var value: Any { get }
 }
 
-extension Array where Element: WooRequestParameter {
+public extension Array where Element: WooRequestParameter {
     
     /// Returns a JSON object from request parameters.
     ///

@@ -10,7 +10,7 @@
 import Foundation
 import ObjectMapper
 
-class WooTag: Mappable {
+public class WooTag: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -27,9 +27,9 @@ class WooTag: Mappable {
     /// Number of published products for the resource.
     var count: String?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         slug <- map["slug"]
@@ -47,7 +47,7 @@ class WooTag: Mappable {
 /// - termGroup: Order by the term group.
 /// - description: Order by the tag's description.
 /// - count: Order by the count of products with this tag.
-enum WooTagOrderBy: String {
+public enum WooTagOrderBy: String {
     case id = "id"
     case include = "include"
     case name = "name"
@@ -57,7 +57,7 @@ enum WooTagOrderBy: String {
     case count = "count"
 }
 
-enum WooTagRequestParameter {
+public enum WooTagRequestParameter {
     case context(WooRequestContext)
     case page(Int)
     case perPage(Int)

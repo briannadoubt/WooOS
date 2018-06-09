@@ -1,23 +1,11 @@
 import Foundation
 import ObjectMapper
 
-extension Float {
-    var string: String {
-        let string = String(format: "$%.02f", self)
-        return string
-    }
-}
-
-protocol WooProductVariationsDelegate {
-    func didDownloadNewVariations()
-    func didDownloadReviews()
-}
-
 /// The object representing a Product downloaded from WooCommerce.
 ///
 /// - Discussion:
 ///   - While it is tempting to use the product images directly from the array of WooImage instances, it is better to retrieve all variations of the product by calling `ProductVariation.listFrom(product: <id>)` 
-class WooProduct: Mappable {
+public class WooProduct: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -224,12 +212,10 @@ class WooProduct: Mappable {
     
     /// Link to collection
     var collectionURL: URL?
-    
-    var delegate: WooProductVariationsDelegate?
 
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
 
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         slug <- map["slug"]

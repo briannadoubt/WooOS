@@ -22,7 +22,7 @@ import Foundation
 /// - parent: Limit result set to resources assigned to a specific parent.
 /// - product: Limit result set to resources assigned to a specific product.
 /// - slug: Limit result set to resources with a specific slug.
-enum WooAttributeTermRequestParameter: WooRequestParameter {
+public enum WooAttributeTermRequestParameter: WooRequestParameter {
     case context(WooRequestContext)
     case page(Int)
     case perPage(Int)
@@ -36,7 +36,7 @@ enum WooAttributeTermRequestParameter: WooRequestParameter {
     case product(WooID)
     case slug(String)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -65,7 +65,7 @@ enum WooAttributeTermRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

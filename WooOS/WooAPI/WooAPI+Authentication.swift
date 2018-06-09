@@ -11,7 +11,7 @@ import Alamofire
 import ObjectMapper
 import Locksmith
 
-extension WooAPI {
+public extension WooAPI {
     
     /// Generates the HTTP headers with the stored auth token.
     ///

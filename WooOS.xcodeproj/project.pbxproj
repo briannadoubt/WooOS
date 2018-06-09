@@ -8,9 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		01347C9620C3A8DF000DDB9C /* WooAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01347C9520C3A8DF000DDB9C /* WooAPITests.swift */; };
+		013E8BD320CBDAAA00C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BD520CBDACC00C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BD920CBDB8E00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BDA20CBDC4900C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BDB20CBDC4A00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BDC20CBDC4A00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BDD20CBDC4A00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BDE20CBDC4B00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BDF20CBDC4C00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BE020CBDC4C00C05987 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD820CBDB8E00C05987 /* Float+Extension.swift */; };
+		013E8BE120CBDC7C00C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE220CBDC7D00C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE320CBDC7E00C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE420CBDC7F00C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE520CBDC7F00C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE620CBDC8000C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE720CBDC8000C05987 /* WooCustomerOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */; };
+		013E8BE820CBDC8600C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BE920CBDC8600C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BEA20CBDC8700C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BEB20CBDC8800C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BEC20CBDC8800C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BED20CBDC8900C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
+		013E8BEE20CBDC8900C05987 /* WooCustomerRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */; };
 		017E61E620C2879900E94400 /* WooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017E61DC20C2879900E94400 /* WooOS.framework */; };
 		017E61EB20C2879900E94400 /* WooOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E61EA20C2879900E94400 /* WooOSTests.swift */; };
-		017E61ED20C2879900E94400 /* WooOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 017E61DF20C2879900E94400 /* WooOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		017E624920C287C700E94400 /* WooCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E61F620C287C500E94400 /* WooCart.swift */; };
 		017E624A20C287C700E94400 /* WooCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E61F620C287C500E94400 /* WooCart.swift */; };
 		017E624B20C287C700E94400 /* WooTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E61F820C287C500E94400 /* WooTag.swift */; };
@@ -626,8 +649,10 @@
 		013E8BCF20CB617A00C05987 /* WooOS.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = WooOS.podspec; sourceTree = "<group>"; };
 		013E8BD020CB617A00C05987 /* Cartfile.private */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.private; sourceTree = "<group>"; };
 		013E8BD120CB617B00C05987 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooCustomerOrderBy.swift; sourceTree = "<group>"; };
+		013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooCustomerRole.swift; sourceTree = "<group>"; };
+		013E8BD820CBDB8E00C05987 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
 		017E61DC20C2879900E94400 /* WooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		017E61DF20C2879900E94400 /* WooOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WooOS.h; sourceTree = "<group>"; };
 		017E61E020C2879900E94400 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		017E61E520C2879900E94400 /* WooOS-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WooOS-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017E61EA20C2879900E94400 /* WooOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooOSTests.swift; sourceTree = "<group>"; };
@@ -947,6 +972,8 @@
 			children = (
 				017E621E20C287C600E94400 /* WooCustomer.swift */,
 				017E621F20C287C600E94400 /* WooCustomerRequestParameter.swift */,
+				013E8BD220CBDAAA00C05987 /* WooCustomerOrderBy.swift */,
+				013E8BD420CBDACC00C05987 /* WooCustomerRole.swift */,
 			);
 			path = WooCustomer;
 			sourceTree = "<group>";
@@ -991,6 +1018,7 @@
 			isa = PBXGroup;
 			children = (
 				017E623820C287C600E94400 /* ObjectMapper+FloatTransform.swift */,
+				013E8BD820CBDB8E00C05987 /* Float+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1084,7 +1112,6 @@
 				017E624520C287C700E94400 /* WooShippingClass */,
 				017E61F720C287C500E94400 /* WooTag */,
 				017E623720C287C600E94400 /* Extensions */,
-				017E61DF20C2879900E94400 /* WooOS.h */,
 			);
 			path = WooOS;
 			sourceTree = "<group>";
@@ -1124,7 +1151,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017E61ED20C2879900E94400 /* WooOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1468,6 +1494,7 @@
 				017E625120C287C700E94400 /* WooAttributeTermOrderBy.swift in Sources */,
 				017E62C720C287C700E94400 /* WooRefundRequestParameter.swift in Sources */,
 				017E628120C287C700E94400 /* WooCouponOrderBy.swift in Sources */,
+				013E8BD920CBDB8E00C05987 /* Float+Extension.swift in Sources */,
 				017E624D20C287C700E94400 /* WooAttributeTermRequestParameter.swift in Sources */,
 				017E624F20C287C700E94400 /* WooAttributeTerm.swift in Sources */,
 				017E62CD20C287C700E94400 /* WooShippingClass.swift in Sources */,
@@ -1481,12 +1508,14 @@
 				017E625920C287C700E94400 /* WooOrderInternalCoupon.swift in Sources */,
 				017E627D20C287C700E94400 /* WooCouponDiscountType.swift in Sources */,
 				017E627F20C287C700E94400 /* WooCoupon.swift in Sources */,
+				013E8BD520CBDACC00C05987 /* WooCustomerRole.swift in Sources */,
 				017E62C520C287C700E94400 /* WooImage.swift in Sources */,
 				017E625D20C287C700E94400 /* WooOrderFee.swift in Sources */,
 				017E627920C287C700E94400 /* WooOS.swift in Sources */,
 				017E626520C287C700E94400 /* WooOrderRefund.swift in Sources */,
 				017E625320C287C700E94400 /* WooMetaData.swift in Sources */,
 				017E627120C287C700E94400 /* WooCategoryRequestParameter.swift in Sources */,
+				013E8BD320CBDAAA00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				017E628320C287C700E94400 /* WooCurrency.swift in Sources */,
 				017E625F20C287C700E94400 /* WooOrderLineItem.swift in Sources */,
 				017E626920C287C700E94400 /* WooOrderStatus.swift in Sources */,
@@ -1512,6 +1541,7 @@
 				017E629220C287C700E94400 /* WooError.swift in Sources */,
 				017E62C620C287C700E94400 /* WooImage.swift in Sources */,
 				017E624E20C287C700E94400 /* WooAttributeTermRequestParameter.swift in Sources */,
+				013E8BE420CBDC7F00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				017E62CA20C287C700E94400 /* WooRefund.swift in Sources */,
 				017E627220C287C700E94400 /* WooCategoryRequestParameter.swift in Sources */,
 				017E625620C287C700E94400 /* WooProductVariationRequestParameter.swift in Sources */,
@@ -1545,6 +1575,8 @@
 				017E62AE20C287C700E94400 /* WooTaxClass.swift in Sources */,
 				017E626220C287C700E94400 /* WooOrderRequestParameter.swift in Sources */,
 				017E625A20C287C700E94400 /* WooOrderInternalCoupon.swift in Sources */,
+				013E8BEB20CBDC8800C05987 /* WooCustomerRole.swift in Sources */,
+				013E8BDD20CBDC4A00C05987 /* Float+Extension.swift in Sources */,
 				017E629620C287C700E94400 /* WooSortOrder.swift in Sources */,
 				017E625E20C287C700E94400 /* WooOrderFee.swift in Sources */,
 				01347C9620C3A8DF000DDB9C /* WooAPITests.swift in Sources */,
@@ -1645,7 +1677,9 @@
 				01DDCAFA20C9016F0069E001 /* WooBilling.swift in Sources */,
 				01DDCBFD20C901B50069E001 /* WooCategory.swift in Sources */,
 				01DDCB4D20C901890069E001 /* WooOrderShippingLine.swift in Sources */,
+				013E8BE120CBDC7C00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				01DDCBE720C901AC0069E001 /* WooAttribute.swift in Sources */,
+				013E8BE920CBDC8600C05987 /* WooCustomerRole.swift in Sources */,
 				01DDCBEF20C901B10069E001 /* WooAttributeTermRequestParameter.swift in Sources */,
 				01DDCB7520C9018E0069E001 /* WooOrderNoteType.swift in Sources */,
 				01DDCAD420C901510069E001 /* WooError.swift in Sources */,
@@ -1655,6 +1689,7 @@
 				01DDCB4920C901890069E001 /* WooOrderRequestParameter.swift in Sources */,
 				01DDCB3720C901840069E001 /* WooCustomerRequestParameter.swift in Sources */,
 				01DDCBFE20C901B50069E001 /* WooCategoryDisplay.swift in Sources */,
+				013E8BDB20CBDC4A00C05987 /* Float+Extension.swift in Sources */,
 				01DDCBCF20C901A60069E001 /* WooProductVariation.swift in Sources */,
 				01DDCB2620C9017F0069E001 /* WooCouponOrderBy.swift in Sources */,
 				01DDCB5120C901890069E001 /* WooOrderRefund.swift in Sources */,
@@ -1668,6 +1703,7 @@
 				01DDCBF320C901B10069E001 /* WooAttributeTermOrderBy.swift in Sources */,
 				01DDCADF20C901520069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCADB20C901520069E001 /* WooRequestConvertible.swift in Sources */,
+				013E8BE520CBDC7F00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				01DDCB6620C9018B0069E001 /* WooOrder.swift in Sources */,
 				01DDCC1120C901BA0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC520C9014C0069E001 /* WooAPI.swift in Sources */,
@@ -1701,6 +1737,8 @@
 				01DDCBE520C901AC0069E001 /* WooAttributeOrderBy.swift in Sources */,
 				01DDCABF20C901390069E001 /* WooOS.swift in Sources */,
 				01DDCBA320C9019B0069E001 /* WooProduct.swift in Sources */,
+				013E8BEC20CBDC8800C05987 /* WooCustomerRole.swift in Sources */,
+				013E8BDF20CBDC4C00C05987 /* Float+Extension.swift in Sources */,
 				01DDCBA720C9019B0069E001 /* WooDownload.swift in Sources */,
 				01DDCB0F20C901740069E001 /* WooImage.swift in Sources */,
 				01DDCC2620C901E60069E001 /* WooAPITests.swift in Sources */,
@@ -1801,7 +1839,9 @@
 				01DDCAF520C9016F0069E001 /* WooBilling.swift in Sources */,
 				01DDCBFA20C901B50069E001 /* WooCategory.swift in Sources */,
 				01DDCB4320C901890069E001 /* WooOrderShippingLine.swift in Sources */,
+				013E8BE220CBDC7D00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				01DDCBD720C901AA0069E001 /* WooAttribute.swift in Sources */,
+				013E8BE820CBDC8600C05987 /* WooCustomerRole.swift in Sources */,
 				01DDCBEC20C901B00069E001 /* WooAttributeTermRequestParameter.swift in Sources */,
 				01DDCB7220C9018D0069E001 /* WooOrderNoteType.swift in Sources */,
 				01DDCACB20C901510069E001 /* WooError.swift in Sources */,
@@ -1811,6 +1851,7 @@
 				01DDCB3F20C901890069E001 /* WooOrderRequestParameter.swift in Sources */,
 				01DDCB3520C901840069E001 /* WooCustomerRequestParameter.swift in Sources */,
 				01DDCBFB20C901B50069E001 /* WooCategoryDisplay.swift in Sources */,
+				013E8BDA20CBDC4900C05987 /* Float+Extension.swift in Sources */,
 				01DDCBCD20C901A60069E001 /* WooProductVariation.swift in Sources */,
 				01DDCB2220C9017E0069E001 /* WooCouponOrderBy.swift in Sources */,
 				01DDCB4720C901890069E001 /* WooOrderRefund.swift in Sources */,
@@ -1878,7 +1919,9 @@
 				01DDCB0420C901700069E001 /* WooBilling.swift in Sources */,
 				01DDCC0320C901B60069E001 /* WooCategory.swift in Sources */,
 				01DDCB5720C9018A0069E001 /* WooOrderShippingLine.swift in Sources */,
+				013E8BE320CBDC7E00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				01DDCBDF20C901AB0069E001 /* WooAttribute.swift in Sources */,
+				013E8BEA20CBDC8700C05987 /* WooCustomerRole.swift in Sources */,
 				01DDCBF520C901B10069E001 /* WooAttributeTermRequestParameter.swift in Sources */,
 				01DDCB7B20C9018F0069E001 /* WooOrderNoteType.swift in Sources */,
 				01DDCAE620C901530069E001 /* WooError.swift in Sources */,
@@ -1888,6 +1931,7 @@
 				01DDCB5320C9018A0069E001 /* WooOrderRequestParameter.swift in Sources */,
 				01DDCB3B20C901850069E001 /* WooCustomerRequestParameter.swift in Sources */,
 				01DDCC0420C901B60069E001 /* WooCategoryDisplay.swift in Sources */,
+				013E8BDC20CBDC4A00C05987 /* Float+Extension.swift in Sources */,
 				01DDCBD320C901A70069E001 /* WooProductVariation.swift in Sources */,
 				01DDCB2E20C9017F0069E001 /* WooCouponOrderBy.swift in Sources */,
 				01DDCB5B20C9018A0069E001 /* WooOrderRefund.swift in Sources */,
@@ -1901,6 +1945,7 @@
 				01DDCBF920C901B20069E001 /* WooAttributeTermOrderBy.swift in Sources */,
 				01DDCAF120C901530069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCAED20C901530069E001 /* WooRequestConvertible.swift in Sources */,
+				013E8BE620CBDC8000C05987 /* WooCustomerOrderBy.swift in Sources */,
 				01DDCB5C20C9018A0069E001 /* WooOrder.swift in Sources */,
 				01DDCC1720C901BB0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC220C9014A0069E001 /* WooAPI.swift in Sources */,
@@ -1934,6 +1979,8 @@
 				01DDCBDD20C901AB0069E001 /* WooAttributeOrderBy.swift in Sources */,
 				01DDCAC120C9013B0069E001 /* WooOS.swift in Sources */,
 				01DDCBBB20C9019C0069E001 /* WooProduct.swift in Sources */,
+				013E8BED20CBDC8900C05987 /* WooCustomerRole.swift in Sources */,
+				013E8BDE20CBDC4B00C05987 /* Float+Extension.swift in Sources */,
 				01DDCBBF20C9019C0069E001 /* WooDownload.swift in Sources */,
 				01DDCB1120C901750069E001 /* WooImage.swift in Sources */,
 				01DDCC2720C901E60069E001 /* WooAPITests.swift in Sources */,
@@ -1983,6 +2030,7 @@
 				01DDCC7B20CB45800069E001 /* WooCategoryRequestParameter.swift in Sources */,
 				01DDCC9C20CB459D0069E001 /* WooOrderShippingLine.swift in Sources */,
 				01DDCC9920CB459D0069E001 /* WooOrderStatus.swift in Sources */,
+				013E8BE720CBDC8000C05987 /* WooCustomerOrderBy.swift in Sources */,
 				01DDCC8120CB45880069E001 /* WooAttributeOrderBy.swift in Sources */,
 				01DDCC9120CB45920069E001 /* WooProductDisplay.swift in Sources */,
 				01DDCC7E20CB45850069E001 /* WooAttributeTermOrderBy.swift in Sources */,
@@ -1997,6 +2045,7 @@
 				01DDCCA620CB45A30069E001 /* WooCouponDiscountType.swift in Sources */,
 				01DDCC9020CB45920069E001 /* WooProductCatelogVisibility.swift in Sources */,
 				01DDCC8620CB45920069E001 /* WooProduct.swift in Sources */,
+				013E8BE020CBDC4C00C05987 /* Float+Extension.swift in Sources */,
 				01DDCC9520CB45990069E001 /* WooOrderNoteRequestParameter.swift in Sources */,
 				01DDCCA120CB459F0069E001 /* WooCustomer.swift in Sources */,
 				01DDCC9720CB459D0069E001 /* WooOrder.swift in Sources */,
@@ -2044,6 +2093,7 @@
 				01DDCC8520CB458E0069E001 /* WooProductReview.swift in Sources */,
 				01DDCC8420CB458C0069E001 /* WooProductVariationRequestParameter.swift in Sources */,
 				01DDCCB120CB45B40069E001 /* WooNonce.swift in Sources */,
+				013E8BEE20CBDC8900C05987 /* WooCustomerRole.swift in Sources */,
 				01DDCCAC20CB45AF0069E001 /* WooShipping.swift in Sources */,
 				01DDCCA320CB45A30069E001 /* WooCoupon.swift in Sources */,
 				01DDCC9A20CB459D0069E001 /* WooOrderLineItem.swift in Sources */,

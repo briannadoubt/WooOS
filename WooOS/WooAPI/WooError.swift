@@ -9,7 +9,7 @@
 import Foundation
 
 /// The error type for all WooOS errors.
-enum WooError: Error {
+public enum WooError: Error {
     
     case fatalError(description: String)
     

@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrderLineItem: Mappable {
+public class WooOrderLineItem: Mappable {
     
     /// Item ID.
     var id: WooID?
@@ -64,9 +64,9 @@ class WooOrderLineItem: Mappable {
         variationID = variation
     }
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         productID <- map["product_id"]

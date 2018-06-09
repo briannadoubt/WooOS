@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrderFee: Mappable {
+public class WooOrderFee: Mappable {
     
     /// Item ID.
     var id: WooID?
@@ -35,9 +35,9 @@ class WooOrderFee: Mappable {
     /// Meta data. See Order - Meta data properties
     var metaData: [WooMetaData]?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         taxClass <- map["tax_class"]

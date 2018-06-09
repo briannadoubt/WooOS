@@ -21,7 +21,7 @@ import Foundation
 /// - orderby: Sort collection by object attribute. Options: id, include, name and registered_date. Default is name.
 /// - email: Limit result set to resources with a specific email.
 /// - role: Limit result set to resources with a specific role. Options: all, administrator, editor, author, contributor, subscriber, customer and shop_manager. Default is customer.
-enum WooCustomerRequestParameter: WooRequestParameter {
+public enum WooCustomerRequestParameter: WooRequestParameter {
     case context(WooRequestContext)
     case page(Int)
     case perPage(Int)
@@ -34,7 +34,7 @@ enum WooCustomerRequestParameter: WooRequestParameter {
     case email(String)
     case role(WooCustomerRole)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -61,7 +61,7 @@ enum WooCustomerRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue
@@ -97,36 +97,4 @@ enum WooCustomerRequestParameter: WooRequestParameter {
             return role
         }
     }
-}
-
-/// Sort collection by WooCustomer attribute.
-///
-/// - id: The ID of the WooCustomer.
-/// - include: Which customers to include.
-/// - name: Order by name.
-/// - registeredDate: Order by date registered.
-enum WooCustomerOrderBy: String {
-    case id = "id"
-    case include = "include"
-    case name = "name"
-    case registeredDate = "registered_date"
-}
-
-/// Limit result set to resources with a specific role.
-///
-/// - all: Grants all priviledges
-/// - editor: Grants ability to edit pages and products.
-/// - author: Allows for authoring pages.
-/// - contributor: Allows user to contribute to existing pages.
-/// - subscriber: Default WordPress user role.
-/// - customer: Default WooCommerce user role.
-/// - shopManager: Allows user to edit products, inventory and orders.
-enum WooCustomerRole: String {
-    case all = "all"
-    case editor = "editor"
-    case author = "author"
-    case contributor = "contributor"
-    case subscriber = "subscriber"
-    case customer = "customer"
-    case shopManager = "shop_manager"
 }

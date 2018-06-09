@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrderShippingLine: Mappable {
+public class WooOrderShippingLine: Mappable {
     
     /// Item ID.
     var id: WooID?
@@ -32,9 +32,9 @@ class WooOrderShippingLine: Mappable {
     /// Meta data. See Order - Meta data properties
     var metaData: [WooMetaData]?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         methodTitle <- map["method_title"]
         methodID <- map["method_id"]

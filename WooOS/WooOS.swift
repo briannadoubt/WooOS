@@ -3,10 +3,10 @@ import Foundation
 import ObjectMapper
 
 /// Used to specify a unique identifier within WooOS.
-typealias WooID = Int
+public typealias WooID = Int
 
 /// This is the main class for all of WooOS, the SDK that allows developers to interface with the WooCommerce REST API.
-class WooOS {
+public class WooOS {
     
     //  ------------------------
     /// MARK: - Static Variables

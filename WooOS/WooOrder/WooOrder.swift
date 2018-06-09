@@ -1,7 +1,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrder: Mappable {
+public class WooOrder: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -136,9 +136,9 @@ class WooOrder: Mappable {
 //        }
     }
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
 
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         parentID <- map["parent_id"]
         number <- map["number"]

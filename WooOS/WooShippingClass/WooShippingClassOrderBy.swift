@@ -17,7 +17,7 @@ import Foundation
 /// - termGroup: Order by the shipping class term groups.
 /// - description: Order by the description.
 /// - count: Order by the count of classes.
-enum WooShippingClassOrderBy: String {
+public enum WooShippingClassOrderBy: String {
     case id = "id"
     case include = "include"
     case name = "name"

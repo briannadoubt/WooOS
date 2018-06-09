@@ -24,7 +24,7 @@ import Foundation
 /// - parent: Limit result set to those of particular parent IDs.
 /// - parentExclude: Limit result set to those of particular parent IDs.
 /// - decimalPoint: Number of decimal points to use in each resource. Default is 2.
-enum WooRefundRequestParameter: WooRequestParameter {
+public enum WooRefundRequestParameter: WooRequestParameter {
    
     case context(WooRequestContext)
     case page(Int)
@@ -41,7 +41,7 @@ enum WooRefundRequestParameter: WooRequestParameter {
     case parentExclude([WooID])
     case decimalPoint(Int)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -74,7 +74,7 @@ enum WooRefundRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

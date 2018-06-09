@@ -18,7 +18,7 @@ import ObjectMapper
 /// - cancelled: <#cancelled description#>
 /// - refunded: <#refunded description#>
 /// - failed: <#failed description#>
-enum WooOrderStatus: String {
+public enum WooOrderStatus: String {
     case pending = "pending"
     case processing = "processing"
     case onHold = "on-hold"

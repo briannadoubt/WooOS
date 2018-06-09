@@ -12,7 +12,7 @@ import Foundation
 ///
 /// - taxable: Order is taxable.
 /// - none: Tax is not applicable.
-enum WooOrderTaxable: String {
+public enum WooOrderTaxable: String {
     case taxable = "taxable"
     case none = "none"
 }

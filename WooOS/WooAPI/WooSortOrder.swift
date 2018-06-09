@@ -12,7 +12,7 @@ import Foundation
 ///
 /// - ascending: List objects in an ascending order.
 /// - descending: List objects in a descending order.
-enum WooSortOrder: String {
+public enum WooSortOrder: String {
     case ascending = "asc"
     case descending = "desc"
 }

@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrderInternalCoupon: Mappable {
+public class WooOrderInternalCoupon: Mappable {
     
     /// Item ID.
     var id: WooID?
@@ -26,9 +26,9 @@ class WooOrderInternalCoupon: Mappable {
     /// Meta data. See Order - Meta data properties
     var metaData: [WooMetaData]?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         code <- map["code"]
         discount <- map["discount"]

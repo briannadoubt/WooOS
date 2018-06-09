@@ -22,7 +22,7 @@ import Foundation
 /// - order: Order sort attribute ascending or descending. Options: asc and desc. Default is desc.
 /// - orderby: Sort collection by object attribute. Options: date, id, include, title and slug. Default is date.
 /// - code: Limit result set to resources with a specific code.
-enum WooCouponRequestParameter: WooRequestParameter {    
+public enum WooCouponRequestParameter: WooRequestParameter {    
     case context(WooRequestContext)
     case page(Int)
     case perPage(Int)
@@ -36,7 +36,7 @@ enum WooCouponRequestParameter: WooRequestParameter {
     case orderby(WooCouponOrderBy)
     case code(String)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -65,7 +65,7 @@ enum WooCouponRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

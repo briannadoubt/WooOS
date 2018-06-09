@@ -9,14 +9,14 @@
 import Foundation
 import ObjectMapper
 
-class WooNonce: ImmutableMappable {
+public class WooNonce: ImmutableMappable {
     
     var status: String
     var controller: String
     var method: String
     var nonce: String
     
-    required init(map: Map) throws {
+    required public init(map: Map) throws {
         status = try map.value("status")
         controller = try map.value("controller")
         method = try map.value("method")

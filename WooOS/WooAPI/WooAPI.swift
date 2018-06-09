@@ -11,7 +11,7 @@ import Alamofire
 import ObjectMapper
 
 /// This class is the handler for WooCommerce REST API calls and session handling.
-class WooAPI {
+public class WooAPI {
     
     //  ------------------------
     /// MARK: - Static Variables

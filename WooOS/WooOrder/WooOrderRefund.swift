@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrderRefund: Mappable {
+public class WooOrderRefund: Mappable {
     
     /// Refund ID.
     var id: WooID?
@@ -20,9 +20,9 @@ class WooOrderRefund: Mappable {
     /// Refund total.
     var total: String?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         reason <- map["reason"]
         total <- map["total"]

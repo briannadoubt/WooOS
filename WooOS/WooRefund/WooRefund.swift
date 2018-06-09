@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooRefund: Mappable {
+public class WooRefund: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -38,9 +38,9 @@ class WooRefund: Mappable {
     /// When true, the payment gateway API is used to generate the refund. Default is true.
     var apiRefund: Bool?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         dateCreated <- map["date_created"]
         dateCreatedGMT <- map["date_created_gmt"]

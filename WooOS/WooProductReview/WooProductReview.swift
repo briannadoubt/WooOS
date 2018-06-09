@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooProductReview: Mappable {
+public class WooProductReview: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -35,9 +35,9 @@ class WooProductReview: Mappable {
     /// Shows if the reviewer bought the product or not.
     var verified: Bool?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         review <- map["review"]
         dateCreated <- map["date_created"]

@@ -17,7 +17,7 @@ import Foundation
 /// - termGroup: Sort by the term group of the items.
 /// - description: Sort by the description of the items.
 /// - count: Sort by count.
-enum WooSortResultsBy: String {
+public enum WooSortResultsBy: String {
     case id = "id"
     case include = "include"
     case name = "name"

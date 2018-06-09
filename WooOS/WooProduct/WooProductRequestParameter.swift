@@ -38,7 +38,7 @@ import Foundation
 /// - onSale: Limit result set to products on sale.
 /// - minPrice: Limit result set to products based on a minimum price.
 /// - maxPrice: Limit result set to products based on a maximum price.
-enum WooProductRequestParameter: WooRequestParameter {
+public enum WooProductRequestParameter: WooRequestParameter {
     case context(WooRequestContext)
     case page(Int)
     case perPage(Int)
@@ -68,7 +68,7 @@ enum WooProductRequestParameter: WooRequestParameter {
     case minPrice(String)
     case maxPrice(String)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -129,7 +129,7 @@ enum WooProductRequestParameter: WooRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

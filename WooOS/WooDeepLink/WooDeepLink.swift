@@ -13,7 +13,7 @@ import Foundation
 // ------------------------------------------------------------------------
 
 /// <#Description#>
-class WooDeepLink {
+public class WooDeepLink {
     
     /// <#Description#>
     var recognizer = DeepLinkRecognizer(deepLinkTypes: [ProductDeepLink.self])

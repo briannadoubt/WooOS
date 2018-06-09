@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class WooOrderNote: Mappable {
+public class WooOrderNote: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -26,9 +26,9 @@ class WooOrderNote: Mappable {
     /// If true, the note will be shown to customers and they will be notified. If false, the note will be for admin reference only. Default is false.
     var customerNote: Bool? = false
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         dateCreated <- map["date_created"]
         dateCreatedGMT <- map["date_created_gmt"]

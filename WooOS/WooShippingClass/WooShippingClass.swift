@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 /// The product shipping class API allows you to create, view, update, and delete individual shipping classes.
-class WooShippingClass: Mappable {
+public class WooShippingClass: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?
@@ -27,9 +27,9 @@ class WooShippingClass: Mappable {
     /// Number of published products for the resource.
     var count: String?
     
-    required init?(map: Map) { }
+    required public init?(map: Map) { }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
         slug <- map["slug"]

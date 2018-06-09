@@ -12,11 +12,11 @@ public enum WooAttributeRequestParameter: WooRequestParameter {
     
     case context(WooRequestContext)
     
-    var key: String{
+    public var key: String{
         return "context"
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue
