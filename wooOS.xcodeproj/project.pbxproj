@@ -174,6 +174,7 @@
 		017E62D320C2917B00E94400 /* WooCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E62D120C2917B00E94400 /* WooCompletion.swift */; };
 		017E62D520C292D100E94400 /* DeepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E62D420C292D100E94400 /* DeepLinking.swift */; };
 		017E62D620C292D100E94400 /* DeepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E62D420C292D100E94400 /* DeepLinking.swift */; };
+		01955FDE20CE34B80009DFE6 /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01955FDD20CE34B80009DFE6 /* WooBraintree.swift */; };
 		01DDCA6620C8F8CB0069E001 /* WooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DDCA5D20C8F8CB0069E001 /* WooOS.framework */; };
 		01DDCA8F20C8FA320069E001 /* WooOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DDCA8620C8FA320069E001 /* WooOS.framework */; };
 		01DDCABD20C901380069E001 /* WooOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E621420C287C500E94400 /* WooOS.swift */; };
@@ -746,6 +747,7 @@
 		017E624820C287C700E94400 /* WooShippingClassRequestParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooShippingClassRequestParameter.swift; sourceTree = "<group>"; };
 		017E62D120C2917B00E94400 /* WooCompletion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WooCompletion.swift; sourceTree = "<group>"; };
 		017E62D420C292D100E94400 /* DeepLinking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepLinking.swift; sourceTree = "<group>"; };
+		01955FDD20CE34B80009DFE6 /* WooBraintree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooBraintree.swift; sourceTree = "<group>"; };
 		01DDCA5320C8F85B0069E001 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		01DDCA5D20C8F8CB0069E001 /* WooOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WooOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DDCA6020C8F8CB0069E001 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
@@ -1095,6 +1097,7 @@
 			isa = PBXGroup;
 			children = (
 				017E61F620C287C500E94400 /* WooCart.swift */,
+				01955FDD20CE34B80009DFE6 /* WooBraintree.swift */,
 				01FFFBB920CDF1C900D14346 /* WooCartState.swift */,
 				017E621C20C287C600E94400 /* WooBilling.swift */,
 				017E621B20C287C600E94400 /* WooShipping.swift */,
@@ -1491,6 +1494,7 @@
 				017E628920C287C700E94400 /* WooCustomer.swift in Sources */,
 				017E62C920C287C700E94400 /* WooRefund.swift in Sources */,
 				017E62D220C2917B00E94400 /* WooCompletion.swift in Sources */,
+				01955FDE20CE34B80009DFE6 /* WooBraintree.swift in Sources */,
 				017E62D520C292D100E94400 /* DeepLinking.swift in Sources */,
 				01FFFBB820CDEA9100D14346 /* WooTagRequestParameter.swift in Sources */,
 				017E62A120C287C700E94400 /* WooProductType.swift in Sources */,

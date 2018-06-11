@@ -8,7 +8,7 @@
 
 import ObjectMapper
 import XCTest
-@testable import WooOS
+import WooOS
 
 class WooOSTests: XCTestCase {
     
@@ -18,17 +18,13 @@ class WooOSTests: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
-        guard let url = URL(string: "http://localhost:8081") else {
+        guard let url = URL(string: "http://localhost:8081/wordpress") else {
             return
         }
         
         baseURL = url
         
-        let wooOS = WooOS(baseURL: baseURL)
-        wooOS.api = WooAPI(url: baseURL)
-        wooOS.cart = WooCart()
-        wooOS.currentCustomer = WooCustomer()
-        WooOS.main = wooOS
+        let _ = WooOS(baseURL: baseURL)
     }
     
     override func tearDown() {
@@ -41,4 +37,60 @@ class WooOSTests: XCTestCase {
         XCTAssert(WooOS.main.api != nil)
     }
     
+    func testWooCartInstanceIsNotNil() {
+        XCTAssert(WooOS.main.cart != nil)
+    }
+    
+    func testWooProductCanListPublicProducts() {
+        let expectation = XCTestExpectation(description: "Download more than 0 products from WooCommerce.")
+        WooProduct.list { (success, unsafeProducts, error) in
+            guard success else {
+                XCTAssert(false, error!.string)
+                return
+            }
+            guard let _ = unsafeProducts else {
+                XCTAssert(false, "No products were found. Make sure there are products in WooCommerce.")
+                return
+            }
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 10.0)
+    }
+    
+    func testWooProductCanDownloadSinglePublicProduct() {
+        let expectation = XCTestExpectation(description: "Download a single product from WooCommerce with a valid ID.")
+        WooProduct.get(product: 79) { (success, unsafeProduct, error) in
+            guard success else {
+                XCTAssert(false, error!.string)
+                return
+            }
+            guard let _ = unsafeProduct else {
+                XCTAssert(false, "No product was found. Make sure there are live products in WooCommerce.")
+                return
+            }
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 10.0)
+    }
+    
+    func testWooCategoryCanListAllPublicCategories() {
+        let expectation = XCTestExpectation(description: "Download a list of all categories from WooCommerce.")
+        WooCategory.listAll { (success, unsafeCategories, error) in
+            guard success else {
+                XCTAssert(false, error!.string)
+                return
+            }
+            guard let _ = unsafeCategories else {
+                XCTAssert(false, "No categories found. Make sure there are live categories in WooCommerce.")
+                return
+            }
+            expectation.fulfill()
+        }
+        wait(for: [expectation], timeout: 10.0)
+    }
+    
+    func testWooBraintreeDoesRetrieveToken() {
+        let expectation = XCTestExpectation(description: "Download Braintree transaction token.")
+        
+    }
 }
