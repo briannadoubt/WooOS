@@ -33,7 +33,7 @@ public enum WooError: Error {
     case managerCredentialsAreNil(description: String)
     
     /// The string to print when there is an error.
-    var string: String {
+    public var string: String {
         switch self {
         case .fatalError(let description):
             return "Fatal Error: " + description
