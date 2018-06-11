@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name = "WooOS"
-spec.version = "0.1.9"
+spec.version = "0.1.10"
 spec.summary = "Cross-platform Swift SDK for WooCommerce"
 spec.homepage = "https://github.com/bornbrie/WooOS"
 spec.license = { type: 'MIT', file: 'LICENSE' }
