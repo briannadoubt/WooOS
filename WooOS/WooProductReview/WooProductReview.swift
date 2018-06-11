@@ -53,7 +53,7 @@ open class WooProductReview: Mappable {
     /// - Parameters:
     ///   - parameters: The reviews request parameters defining which reviews to download.
     ///   - complete: Asynchronous completion containing a success flag, the list of reviews, and an optional error.
-    static func listFrom<T: WooProductReview>(product: WooID,
+    public static func listFrom<T: WooProductReview>(product: WooID,
                                           with parameters: [WooProductVariationRequestParameter]? = nil,
                                           then complete: WooCompletion.List<T>? = nil) {
         WooOS.main.api.getList(of: .reviews(product: product, parameters: parameters), then: complete)

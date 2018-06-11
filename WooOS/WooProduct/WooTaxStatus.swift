@@ -18,7 +18,7 @@ public enum WooTaxStatus: String {
     case shipping = "shipping"
     case none = "none"
     
-    init() {
+    public init() {
         self = .none
     }
 }

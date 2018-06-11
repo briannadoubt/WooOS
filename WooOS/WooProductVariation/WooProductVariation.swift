@@ -171,7 +171,7 @@ open class WooProductVariation: Mappable {
     ///   - product: The identifier of the parent product from which the variations are born...
     ///   - parameters: Optional parameters to filter variations.
     ///   - complete: Optional completion that includes the relevant `WooProductVariation` objects.
-    static func listFrom<T: WooProductVariation>(product: WooID,
+    public static func listFrom<T: WooProductVariation>(product: WooID,
                                           with parameters: [WooProductVariationRequestParameter]? = nil,
                                           then complete: WooCompletion.List<T>? = nil) {
         WooOS.main.api.getList(of: .variations(product: product, parameters: parameters), then: complete)

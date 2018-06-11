@@ -183,15 +183,15 @@ open class WooOrder: Mappable {
         setPaid <- map["set_paid"]
     }
 
-    static func get<T: Mappable>(order: Int, then complete: @escaping WooCompletion.Object<T>) {
+    public static func get<T: Mappable>(order: Int, then complete: @escaping WooCompletion.Object<T>) {
         WooOS.main.api.getObject(type: .order(id: order), then: complete)
     }
     
-    static func update<T: Mappable>(id: Int, then complete: @escaping WooCompletion.Object<T>) {
+    public static func update<T: Mappable>(id: Int, then complete: @escaping WooCompletion.Object<T>) {
         print("Update Order")
     }
     
-    static func create<T: Mappable>(id: Int, then complete: @escaping WooCompletion.Object<T>) {
+    public static func create<T: Mappable>(id: Int, then complete: @escaping WooCompletion.Object<T>) {
         print("Create Order")
     }
 }

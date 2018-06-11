@@ -119,7 +119,7 @@ open class WooCustomer: Mappable {
         metaData <- map["meta_data"]
     }
     
-    func get<T: WooCustomer>(customer: WooID,
+    public func get<T: WooCustomer>(customer: WooID,
                              then complete: WooCompletion.Object<T>?) {
         WooOS.main.api.getObject(type: WooRequestConvertible.customer(id: customer), then: complete)
     }

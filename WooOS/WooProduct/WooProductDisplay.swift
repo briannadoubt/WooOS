@@ -19,4 +19,8 @@ public enum WooProductDisplay: String {
     case products = "products"
     case subcategories = "subcategories"
     case both = "both"
+    
+    public init() {
+        self = .Default
+    }
 }

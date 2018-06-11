@@ -55,7 +55,7 @@ open class WooCategory: Mappable {
         collectionURLs <- map["_links.collection.0.value"]
     }
     
-    static func get<T: WooCategory>(category: Int,
+    public static func get<T: WooCategory>(category: Int,
                                            then complete: @escaping WooCompletion.Object<T>) {
         WooOS.main.api.getObject(type: WooRequestConvertible.category(id: category), then: complete)
     }
@@ -64,7 +64,7 @@ open class WooCategory: Mappable {
     ///
     /// - Parameters:
     ///   - complete: Asynchronous completion block for returning the array properties. Passed through to the core API call.
-    static func listAll<T: WooCategory>(then complete: @escaping WooCompletion.List<T>) {
+    public static func listAll<T: WooCategory>(then complete: @escaping WooCompletion.List<T>) {
         let parameters: [WooCategoryRequestParameter] = [.hideEmpty(true), .perPage(50)]
         WooOS.main.api.getList(of: .publicCategories(parameters: parameters), then: complete)
     }

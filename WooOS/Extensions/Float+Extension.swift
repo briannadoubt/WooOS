@@ -9,7 +9,7 @@
 import Foundation
 
 extension Float {
-    var string: String {
+    public var string: String {
         let string = String(format: "$%.02f", self)
         return string
     }
