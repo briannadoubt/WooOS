@@ -18,7 +18,7 @@ public class WooAPI {
     //  ------------------------
     
     /// Current version of the WooCommerce REST API. Used to concatenate the url path.
-    static let version = "wp-json/wc/v2"
+    static let version = "wp-json/wc/v2/"
     
     /// The slug used to obtain the token with a valid username and password.
     static let tokenSlug = "jwt-auth/v1/token"

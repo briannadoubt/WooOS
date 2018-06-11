@@ -144,18 +144,18 @@ public enum WooRequestConvertible: URLRequestConvertible {
             return "/orders/\(order)/notes/\(note)"
             
         case .refunds(let order):
-            return "orders/\(order)/refunds"
+            return "/orders/\(order)/refunds"
         case .refund(let order, let refund):
-            return "orders/\(order)/refunds/\(refund)"
+            return "/orders/\(order)/refunds/\(refund)"
         case .createRefund(let order):
-            return "orders/\(order)/refunds"
+            return "/orders/\(order)/refunds"
         case .deleteRefund(let order, let refund):
-            return "orders/\(order)/refunds/\(refund)"
+            return "/orders/\(order)/refunds/\(refund)"
             
         case .publicProducts:
-            return "products/public"
+            return "/products/public"
         case .publicProduct(let id):
-            return "products/\(id)/public"
+            return "/products/\(id)/public"
             
         case .products:
             return "/products"
