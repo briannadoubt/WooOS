@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+/// An object representing a WooRefund object associated to an order.
 public class WooOrderRefund: Mappable {
     
     /// Refund ID.

@@ -8,12 +8,12 @@
 
 import Foundation
 
-/// <#Description#>
+/// The visibility level of the products being requested.
 ///
-/// - visible: <#visible description#>
-/// - catalog: <#catalog description#>
-/// - search: <#search description#>
-/// - hidden: <#hidden description#>
+/// - visible: Only visible products.
+/// - catalog: Only products listed in the catelog.
+/// - search: Obly products that are allowed to be shown in a search query.
+/// - hidden: Only hidden products.
 public enum WooProductCatalogVisibility: String {
     case visible = "visible"
     case catalog = "catalog"

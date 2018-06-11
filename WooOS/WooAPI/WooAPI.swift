@@ -34,19 +34,19 @@ public class WooAPI {
     //  -----------------------------------------------------------
     
     /// The consumer key found in the WooCommerce API settings.
-    var consumerKey: String?
+    public var consumerKey: String?
     
     /// The consumer secret found in the WooCommerce API settings.
-    var consumerSecret: String?
+    public var consumerSecret: String?
     
     /// The baseURL for all the requests. A WooCommerce instance should be installed on the server this URL is pointing to.
-    var siteURL: URL
+    public var siteURL: URL
     
     /// The stored token used to validate the user's authentication session, stored in the UserDefaults dictionary, accessed with the getter and setter on this variable.
 
     
     /// The shared SessionManager instance for Alamofire.
-    let alamofireManager: SessionManager = {
+    public let alamofireManager: SessionManager = {
         
         // Build the session manager with the configured session.
         let manager = Alamofire.SessionManager(configuration: .default)

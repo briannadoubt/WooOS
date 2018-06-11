@@ -9,11 +9,6 @@
 import Foundation
 import Alamofire
 
-public enum WooCartState: String {
-    case shopping = "shopping"
-    case checkout = "checkoutInProgress"
-}
-
 /// Singleton class designed to manage the client-side cart features of WooOS.
 public class WooCart {
     

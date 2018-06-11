@@ -12,13 +12,13 @@ import Foundation
 // MARK: - WooDeepLink
 // ------------------------------------------------------------------------
 
-/// <#Description#>
+/// The object used to represent a DeepLink action to a page in WooOS
 public class WooDeepLink {
     
-    /// <#Description#>
-    var recognizer = DeepLinkRecognizer(deepLinkTypes: [ProductDeepLink.self])
+    /// The recognizer used to recognize product deep link.
+    var productRecognizer = DeepLinkRecognizer(deepLinkTypes: [ProductDeepLink.self])
     
-    /// <#Description#>
+    /// The deep link object used to link to a product.
     struct ProductDeepLink: DeepLink {
         
         let productName: String

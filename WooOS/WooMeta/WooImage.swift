@@ -9,34 +9,34 @@
 import Foundation
 import ObjectMapper
 
-/// <#Description#>
+/// An object used to represent an image downloaded from WooCommerce.
 public class WooImage: Mappable {
     
-    /// <#Description#>
+    /// The ID of the image.
     var id: WooID?
     
-    /// <#Description#>
+    /// The date this image was uploaded.
     var dateCreated: Date?
     
-    /// <#Description#>
+    /// The date this image was uploaded in GMT.
     var dateCreatedGMT: Date?
     
-    /// <#Description#>
+    /// The date this image was modified.
     var dateModified: Date?
     
-    /// <#Description#>
+    /// The date this image was modified in GMT.
     var dateModifiedGMT: Date?
     
-    /// <#Description#>
+    /// The source URL of the image on the server.
     var src: URL?
     
     /// Image name.
     var name: String?
     
-    /// <#Description#>
+    /// The title of the image on WooCommerce.
     var title: String?
     
-    /// <#Description#>
+    /// The Alt description of the image on WooCommerce.
     var alt: String?
     
     /// Image position. 0 means that the image is featured.

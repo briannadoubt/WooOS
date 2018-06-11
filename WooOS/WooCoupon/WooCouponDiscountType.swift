@@ -8,11 +8,11 @@
 
 import Foundation
 
-/// <#Description#>
+/// The type of discount being applied with the coupon.
 ///
-/// - percent: <#percent description#>
-/// - fixedCart: <#fixedCart description#>
-/// - fixedProduct: <#fixedProduct description#>
+/// - percent: This coupon should use a percentage discount on the cart total.
+/// - fixedCart: This coupon should apply a fixed discount to the cart total.
+/// - fixedProduct: This coupon should apply a fixed discount to a product in the cart.
 public enum WooCouponDiscountType: String {
     case percent = "percent"
     case fixedCart = "fixed_cart"

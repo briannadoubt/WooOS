@@ -8,12 +8,12 @@
 
 import Foundation
 
-/// <#Description#>
+/// Describes the WooCommerce type that is being requested
 ///
-/// - simple: <#simple description#>
-/// - grouped: <#grouped description#>
-/// - external: <#external description#>
-/// - variable: <#variable description#>
+/// - simple: The standard WooCommerce product type.
+/// - grouped: A group of simple products sold as a single product and priced appropriately.
+/// - external: Products that are external to WooCommerce, such as a third party product listed on another website.
+/// - variable: A product that contains a variety of product variations based on variable attributes.
 public enum WooProductType: String {
     case simple = "simple"
     case grouped = "grouped"

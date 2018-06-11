@@ -9,7 +9,8 @@
 import Foundation
 import ObjectMapper
 
-public class WooAttribute: Mappable {
+/// An attribute object associated to a product.
+open class WooAttribute: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

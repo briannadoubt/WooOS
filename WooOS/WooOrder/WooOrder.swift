@@ -1,7 +1,8 @@
 import Foundation
 import ObjectMapper
 
-public class WooOrder: Mappable {
+/// The order object used to represent an order on WooCommerce.
+open class WooOrder: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

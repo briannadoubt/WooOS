@@ -9,7 +9,8 @@
 import Foundation
 import ObjectMapper
 
-public class WooRefund: Mappable {
+/// The refund object generated when an order is refunded.
+open class WooRefund: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

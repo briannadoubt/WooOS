@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+/// A line on an order representing one piece of tax information.
 public class WooOrderTaxLine: Mappable {
     
     /// Item ID.

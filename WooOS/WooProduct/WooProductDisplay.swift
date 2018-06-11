@@ -8,12 +8,12 @@
 
 import Foundation
 
-/// <#Description#>
+/// How to display the requested products.
 ///
-/// - Default: <#Default description#>
-/// - products: <#products description#>
-/// - subcategories: <#subcategories description#>
-/// - both: <#both description#>
+/// - Default: The default display setting.
+/// - products: The products display.
+/// - subcategories: The subcategories display.
+/// - both: Display both.
 public enum WooProductDisplay: String {
     case Default = "default"
     case products = "products"

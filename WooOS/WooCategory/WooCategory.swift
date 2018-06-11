@@ -2,7 +2,7 @@ import Foundation
 import ObjectMapper
 
 /// A collection of products arranged into a category.
-public class WooCategory: Mappable {
+open class WooCategory: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

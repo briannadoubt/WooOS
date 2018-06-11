@@ -618,6 +618,25 @@
 		01DDCCB720CB45B40069E001 /* WooSortResultsBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E622720C287C600E94400 /* WooSortResultsBy.swift */; };
 		01DDCCB820CB45B40069E001 /* WooCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E62D120C2917B00E94400 /* WooCompletion.swift */; };
 		01DDCCB920CB45B60069E001 /* WooOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017E621420C287C500E94400 /* WooOS.swift */; };
+		01FFFBAB20CDE7B500D14346 /* WooAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAA20CDE7B500D14346 /* WooAuthentication.swift */; };
+		01FFFBAD20CDE8CB00D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBAE20CDE9C800D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBAF20CDE9C800D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBB020CDE9C800D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBB120CDE9C900D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBB220CDE9C900D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBB320CDE9CA00D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBB420CDE9CA00D14346 /* WooID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBAC20CDE8CB00D14346 /* WooID.swift */; };
+		01FFFBB620CDEA7F00D14346 /* WooTagOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB520CDEA7F00D14346 /* WooTagOrderBy.swift */; };
+		01FFFBB820CDEA9100D14346 /* WooTagRequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB720CDEA9100D14346 /* WooTagRequestParameter.swift */; };
+		01FFFBBA20CDF1C900D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBBB20CDF2D700D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBBC20CDF2D800D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBBD20CDF2D900D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBBE20CDF2D900D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBBF20CDF2DA00D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBC020CDF2DA00D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
+		01FFFBC120CDF2DB00D14346 /* WooCartState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FFFBB920CDF1C900D14346 /* WooCartState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -757,6 +776,11 @@
 		01DDCC7120CB3C990069E001 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DDCC7220CB3C990069E001 /* Locksmith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Locksmith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DDCC7320CB3C990069E001 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FFFBAA20CDE7B500D14346 /* WooAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooAuthentication.swift; sourceTree = "<group>"; };
+		01FFFBAC20CDE8CB00D14346 /* WooID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooID.swift; sourceTree = "<group>"; };
+		01FFFBB520CDEA7F00D14346 /* WooTagOrderBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooTagOrderBy.swift; sourceTree = "<group>"; };
+		01FFFBB720CDEA9100D14346 /* WooTagRequestParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooTagRequestParameter.swift; sourceTree = "<group>"; };
+		01FFFBB920CDF1C900D14346 /* WooCartState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WooCartState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -856,12 +880,9 @@
 		017E61D220C2879900E94400 = {
 			isa = PBXGroup;
 			children = (
-				013E8BD120CB617B00C05987 /* Cartfile */,
-				013E8BD020CB617A00C05987 /* Cartfile.private */,
-				013E8BCF20CB617A00C05987 /* WooOS.podspec */,
 				01DDCA9D20C8FB0C0069E001 /* WooOS */,
 				017E61E920C2879900E94400 /* Tests */,
-				01DDCABC20C9007E0069E001 /* Info */,
+				01FFFBA920CDE23100D14346 /* Dependancies */,
 				01DDCC2D20CB04400069E001 /* WooOS Demo */,
 				017E61DD20C2879900E94400 /* Products */,
 				0138A2BA7A36A2AD009F14DF /* Frameworks */,
@@ -896,6 +917,8 @@
 			isa = PBXGroup;
 			children = (
 				017E61F820C287C500E94400 /* WooTag.swift */,
+				01FFFBB520CDEA7F00D14346 /* WooTagOrderBy.swift */,
+				01FFFBB720CDEA9100D14346 /* WooTagRequestParameter.swift */,
 			);
 			path = WooTag;
 			sourceTree = "<group>";
@@ -983,10 +1006,8 @@
 			children = (
 				017E622920C287C600E94400 /* WooAPI.swift */,
 				017E622220C287C600E94400 /* WooAPI+Authentication.swift */,
-				017E622120C287C600E94400 /* WooNonce.swift */,
 				017E622820C287C600E94400 /* WooRequestConvertible.swift */,
 				017E622420C287C600E94400 /* WooRequestContext.swift */,
-				017E622320C287C600E94400 /* WooError.swift */,
 				017E622520C287C600E94400 /* WooSortOrder.swift */,
 				017E622620C287C600E94400 /* WooRequestParameter.swift */,
 				017E622720C287C600E94400 /* WooSortResultsBy.swift */,
@@ -1074,29 +1095,23 @@
 			isa = PBXGroup;
 			children = (
 				017E61F620C287C500E94400 /* WooCart.swift */,
+				01FFFBB920CDF1C900D14346 /* WooCartState.swift */,
 				017E621C20C287C600E94400 /* WooBilling.swift */,
 				017E621B20C287C600E94400 /* WooShipping.swift */,
-				017E61FD20C287C500E94400 /* WooMetaData.swift */,
 				017E621A20C287C500E94400 /* WooCurrency.swift */,
 			);
 			path = WooCart;
-			sourceTree = "<group>";
-		};
-		017E62D920C2936600E94400 /* WooImage */ = {
-			isa = PBXGroup;
-			children = (
-				017E624120C287C700E94400 /* WooImage.swift */,
-			);
-			path = WooImage;
 			sourceTree = "<group>";
 		};
 		01DDCA9D20C8FB0C0069E001 /* WooOS */ = {
 			isa = PBXGroup;
 			children = (
 				017E621420C287C500E94400 /* WooOS.swift */,
+				01FFFBAA20CDE7B500D14346 /* WooAuthentication.swift */,
+				017E622120C287C600E94400 /* WooNonce.swift */,
 				017E622020C287C600E94400 /* WooAPI */,
 				017E62D820C2935900E94400 /* WooCart */,
-				017E62D920C2936600E94400 /* WooImage */,
+				01FFFBC220CDF5B200D14346 /* WooMeta */,
 				017E62D720C292ED00E94400 /* WooDeepLink */,
 				017E621520C287C500E94400 /* WooCoupon */,
 				017E621D20C287C600E94400 /* WooCustomer */,
@@ -1116,20 +1131,6 @@
 			path = WooOS;
 			sourceTree = "<group>";
 		};
-		01DDCABC20C9007E0069E001 /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				017E61E020C2879900E94400 /* Info-iOS.plist */,
-				017E61EC20C2879900E94400 /* Info-iOSTests.plist */,
-				01DDCA5320C8F85B0069E001 /* Info-watchOS.plist */,
-				01DDCA6020C8F8CB0069E001 /* Info-tvOS.plist */,
-				01DDCA6C20C8F8CB0069E001 /* Info-tvOSTests.plist */,
-				01DDCA8920C8FA320069E001 /* Info-macOS.plist */,
-				01DDCA9520C8FA320069E001 /* Info-macOSTests.plist */,
-			);
-			path = Info;
-			sourceTree = "<group>";
-		};
 		01DDCC2D20CB04400069E001 /* WooOS Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1142,6 +1143,34 @@
 				01DDCC3C20CB04400069E001 /* Info.plist */,
 			);
 			path = "WooOS Demo";
+			sourceTree = "<group>";
+		};
+		01FFFBA920CDE23100D14346 /* Dependancies */ = {
+			isa = PBXGroup;
+			children = (
+				017E61E020C2879900E94400 /* Info-iOS.plist */,
+				017E61EC20C2879900E94400 /* Info-iOSTests.plist */,
+				01DDCA5320C8F85B0069E001 /* Info-watchOS.plist */,
+				01DDCA6020C8F8CB0069E001 /* Info-tvOS.plist */,
+				01DDCA6C20C8F8CB0069E001 /* Info-tvOSTests.plist */,
+				01DDCA8920C8FA320069E001 /* Info-macOS.plist */,
+				01DDCA9520C8FA320069E001 /* Info-macOSTests.plist */,
+				013E8BD120CB617B00C05987 /* Cartfile */,
+				013E8BD020CB617A00C05987 /* Cartfile.private */,
+				013E8BCF20CB617A00C05987 /* WooOS.podspec */,
+			);
+			path = Dependancies;
+			sourceTree = "<group>";
+		};
+		01FFFBC220CDF5B200D14346 /* WooMeta */ = {
+			isa = PBXGroup;
+			children = (
+				01FFFBAC20CDE8CB00D14346 /* WooID.swift */,
+				017E61FD20C287C500E94400 /* WooMetaData.swift */,
+				017E624120C287C700E94400 /* WooImage.swift */,
+				017E622320C287C600E94400 /* WooError.swift */,
+			);
+			path = WooMeta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1463,6 +1492,7 @@
 				017E62C920C287C700E94400 /* WooRefund.swift in Sources */,
 				017E62D220C2917B00E94400 /* WooCompletion.swift in Sources */,
 				017E62D520C292D100E94400 /* DeepLinking.swift in Sources */,
+				01FFFBB820CDEA9100D14346 /* WooTagRequestParameter.swift in Sources */,
 				017E62A120C287C700E94400 /* WooProductType.swift in Sources */,
 				017E62CB20C287C700E94400 /* WooShippingClassOrderBy.swift in Sources */,
 				017E62BD20C287C700E94400 /* WooAttributeOrderBy.swift in Sources */,
@@ -1492,6 +1522,7 @@
 				017E62BB20C287C700E94400 /* WooProductReview.swift in Sources */,
 				017E627320C287C700E94400 /* WooOrderNoteType.swift in Sources */,
 				017E625120C287C700E94400 /* WooAttributeTermOrderBy.swift in Sources */,
+				01FFFBB620CDEA7F00D14346 /* WooTagOrderBy.swift in Sources */,
 				017E62C720C287C700E94400 /* WooRefundRequestParameter.swift in Sources */,
 				017E628120C287C700E94400 /* WooCouponOrderBy.swift in Sources */,
 				013E8BD920CBDB8E00C05987 /* Float+Extension.swift in Sources */,
@@ -1513,8 +1544,11 @@
 				017E625D20C287C700E94400 /* WooOrderFee.swift in Sources */,
 				017E627920C287C700E94400 /* WooOS.swift in Sources */,
 				017E626520C287C700E94400 /* WooOrderRefund.swift in Sources */,
+				01FFFBAD20CDE8CB00D14346 /* WooID.swift in Sources */,
 				017E625320C287C700E94400 /* WooMetaData.swift in Sources */,
 				017E627120C287C700E94400 /* WooCategoryRequestParameter.swift in Sources */,
+				01FFFBAB20CDE7B500D14346 /* WooAuthentication.swift in Sources */,
+				01FFFBBA20CDF1C900D14346 /* WooCartState.swift in Sources */,
 				013E8BD320CBDAAA00C05987 /* WooCustomerOrderBy.swift in Sources */,
 				017E628320C287C700E94400 /* WooCurrency.swift in Sources */,
 				017E625F20C287C700E94400 /* WooOrderLineItem.swift in Sources */,
@@ -1542,6 +1576,7 @@
 				017E62C620C287C700E94400 /* WooImage.swift in Sources */,
 				017E624E20C287C700E94400 /* WooAttributeTermRequestParameter.swift in Sources */,
 				013E8BE420CBDC7F00C05987 /* WooCustomerOrderBy.swift in Sources */,
+				01FFFBB120CDE9C900D14346 /* WooID.swift in Sources */,
 				017E62CA20C287C700E94400 /* WooRefund.swift in Sources */,
 				017E627220C287C700E94400 /* WooCategoryRequestParameter.swift in Sources */,
 				017E625620C287C700E94400 /* WooProductVariationRequestParameter.swift in Sources */,
@@ -1570,6 +1605,7 @@
 				017E626A20C287C700E94400 /* WooOrderStatus.swift in Sources */,
 				017E62BA20C287C700E94400 /* WooDeepLink.swift in Sources */,
 				017E62A420C287C700E94400 /* WooProductStatus.swift in Sources */,
+				01FFFBBE20CDF2D900D14346 /* WooCartState.swift in Sources */,
 				017E62A020C287C700E94400 /* WooProduct.swift in Sources */,
 				017E628420C287C700E94400 /* WooCurrency.swift in Sources */,
 				017E62AE20C287C700E94400 /* WooTaxClass.swift in Sources */,
@@ -1624,8 +1660,10 @@
 				01DDCAD620C901510069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCAD220C901510069E001 /* WooRequestConvertible.swift in Sources */,
 				01DDCB4820C901890069E001 /* WooOrder.swift in Sources */,
+				01FFFBBC20CDF2D800D14346 /* WooCartState.swift in Sources */,
 				01DDCC0E20C901BA0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC420C9014C0069E001 /* WooAPI.swift in Sources */,
+				01FFFBAF20CDE9C800D14346 /* WooID.swift in Sources */,
 				01DDCB9A20C9019A0069E001 /* WooTaxClass.swift in Sources */,
 				01DDCC0D20C901BA0069E001 /* WooShippingClassRequestParameter.swift in Sources */,
 				01DDCB3620C901840069E001 /* WooCustomer.swift in Sources */,
@@ -1704,6 +1742,7 @@
 				01DDCADF20C901520069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCADB20C901520069E001 /* WooRequestConvertible.swift in Sources */,
 				013E8BE520CBDC7F00C05987 /* WooCustomerOrderBy.swift in Sources */,
+				01FFFBB220CDE9C900D14346 /* WooID.swift in Sources */,
 				01DDCB6620C9018B0069E001 /* WooOrder.swift in Sources */,
 				01DDCC1120C901BA0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC520C9014C0069E001 /* WooAPI.swift in Sources */,
@@ -1732,6 +1771,7 @@
 				01DDCBA420C9019B0069E001 /* WooProductRequestParameter.swift in Sources */,
 				01DDCAE020C901520069E001 /* WooSortResultsBy.swift in Sources */,
 				01DDCAFE20C901700069E001 /* WooCart.swift in Sources */,
+				01FFFBBF20CDF2DA00D14346 /* WooCartState.swift in Sources */,
 				01DDCBE420C901AC0069E001 /* WooAttributeRequestParameter.swift in Sources */,
 				01DDCAD920C901520069E001 /* WooAPI+Authentication.swift in Sources */,
 				01DDCBE520C901AC0069E001 /* WooAttributeOrderBy.swift in Sources */,
@@ -1786,8 +1826,10 @@
 				01DDCACD20C901510069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCAC920C901510069E001 /* WooRequestConvertible.swift in Sources */,
 				01DDCB3E20C901890069E001 /* WooOrder.swift in Sources */,
+				01FFFBBB20CDF2D700D14346 /* WooCartState.swift in Sources */,
 				01DDCC0B20C901BA0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC320C9014B0069E001 /* WooAPI.swift in Sources */,
+				01FFFBAE20CDE9C800D14346 /* WooID.swift in Sources */,
 				01DDCB8E20C9019A0069E001 /* WooTaxClass.swift in Sources */,
 				01DDCC0A20C901BA0069E001 /* WooShippingClassRequestParameter.swift in Sources */,
 				01DDCB3420C901840069E001 /* WooCustomer.swift in Sources */,
@@ -1866,8 +1908,10 @@
 				01DDCAE820C901530069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCAE420C901530069E001 /* WooRequestConvertible.swift in Sources */,
 				01DDCB5220C9018A0069E001 /* WooOrder.swift in Sources */,
+				01FFFBBD20CDF2D900D14346 /* WooCartState.swift in Sources */,
 				01DDCC1420C901BB0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC620C9014D0069E001 /* WooAPI.swift in Sources */,
+				01FFFBB020CDE9C800D14346 /* WooID.swift in Sources */,
 				01DDCBB220C9019B0069E001 /* WooTaxClass.swift in Sources */,
 				01DDCC1320C901BB0069E001 /* WooShippingClassRequestParameter.swift in Sources */,
 				01DDCB3A20C901850069E001 /* WooCustomer.swift in Sources */,
@@ -1946,6 +1990,7 @@
 				01DDCAF120C901530069E001 /* WooRequestParameter.swift in Sources */,
 				01DDCAED20C901530069E001 /* WooRequestConvertible.swift in Sources */,
 				013E8BE620CBDC8000C05987 /* WooCustomerOrderBy.swift in Sources */,
+				01FFFBB320CDE9CA00D14346 /* WooID.swift in Sources */,
 				01DDCB5C20C9018A0069E001 /* WooOrder.swift in Sources */,
 				01DDCC1720C901BB0069E001 /* WooShippingClassOrderBy.swift in Sources */,
 				01DDCAC220C9014A0069E001 /* WooAPI.swift in Sources */,
@@ -1974,6 +2019,7 @@
 				01DDCBBC20C9019C0069E001 /* WooProductRequestParameter.swift in Sources */,
 				01DDCAF220C901530069E001 /* WooSortResultsBy.swift in Sources */,
 				01DDCB0820C901700069E001 /* WooCart.swift in Sources */,
+				01FFFBC020CDF2DA00D14346 /* WooCartState.swift in Sources */,
 				01DDCBDC20C901AB0069E001 /* WooAttributeRequestParameter.swift in Sources */,
 				01DDCAEB20C901530069E001 /* WooAPI+Authentication.swift in Sources */,
 				01DDCBDD20C901AB0069E001 /* WooAttributeOrderBy.swift in Sources */,
@@ -2085,6 +2131,7 @@
 				01DDCCB420CB45B40069E001 /* WooError.swift in Sources */,
 				01DDCC7720CB457D0069E001 /* WooShippingClassRequestParameter.swift in Sources */,
 				01DDCC7420CB45770069E001 /* ObjectMapper+FloatTransform.swift in Sources */,
+				01FFFBC120CDF2DB00D14346 /* WooCartState.swift in Sources */,
 				01DDCC9F20CB459D0069E001 /* WooOrderTaxable.swift in Sources */,
 				01DDCCA820CB45AA0069E001 /* DeepLinking.swift in Sources */,
 				01DDCC8B20CB45920069E001 /* WooBackorder.swift in Sources */,
@@ -2100,6 +2147,7 @@
 				01DDCCB720CB45B40069E001 /* WooSortResultsBy.swift in Sources */,
 				01DDCC7C20CB45850069E001 /* WooAttributeTerm.swift in Sources */,
 				01DDCC7520CB457A0069E001 /* WooTag.swift in Sources */,
+				01FFFBB420CDE9CA00D14346 /* WooID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2268,7 +2316,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Info/Info-iOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = brianna.WooOS;
@@ -2292,7 +2340,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Info/Info-iOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = brianna.WooOS;
@@ -2310,7 +2358,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
-				INFOPLIST_FILE = "Info/Info-iOSTests.plist";
+				INFOPLIST_FILE = "Dependancies/Info-iOSTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = brianna.WooOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2326,7 +2374,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
-				INFOPLIST_FILE = "Info/Info-iOSTests.plist";
+				INFOPLIST_FILE = "Dependancies/Info-iOSTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = brianna.WooOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2346,7 +2394,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Info/Info-tvOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-tvOS";
@@ -2370,7 +2418,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Info/Info-tvOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-tvOS";
@@ -2390,7 +2438,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
-				INFOPLIST_FILE = "Info/Info-tvOSTests.plist";
+				INFOPLIST_FILE = "Dependancies/Info-tvOSTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2408,7 +2456,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
-				INFOPLIST_FILE = "Info/Info-tvOSTests.plist";
+				INFOPLIST_FILE = "Dependancies/Info-tvOSTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2430,7 +2478,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Info/Info-watchOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-watchOS";
@@ -2454,7 +2502,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Info/Info-watchOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-watchOS";
@@ -2480,7 +2528,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Info/Info-macOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -2505,7 +2553,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Info/Info-macOS.plist";
+				INFOPLIST_FILE = "Dependancies/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -2526,7 +2574,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
-				INFOPLIST_FILE = "Info/Info-macOSTests.plist";
+				INFOPLIST_FILE = "Dependancies/Info-macOSTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-macOSTests";
@@ -2545,7 +2593,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9F4WXH899R;
-				INFOPLIST_FILE = "Info/Info-macOSTests.plist";
+				INFOPLIST_FILE = "Dependancies/Info-macOSTests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "brianna.WooOS-macOSTests";

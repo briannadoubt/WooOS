@@ -6,6 +6,7 @@
 //  Copyright © 2018 Brianna Lee. All rights reserved.
 //
 
+import ObjectMapper
 import XCTest
 @testable import WooOS
 
@@ -26,7 +27,7 @@ class WooOSTests: XCTestCase {
         let wooOS = WooOS(baseURL: baseURL)
         wooOS.api = WooAPI(url: baseURL)
         wooOS.cart = WooCart()
-        wooOS.currentCustomer = WooCustomer(map: Map())
+        wooOS.currentCustomer = WooCustomer()
         WooOS.main = wooOS
     }
     

@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+/// A line item representing a product or product variation on an order.
 public class WooOrderLineItem: Mappable {
     
     /// Item ID.

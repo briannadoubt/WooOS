@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+/// An object representing a WooCoupon object associated with an order.
 public class WooOrderInternalCoupon: Mappable {
     
     /// Item ID.

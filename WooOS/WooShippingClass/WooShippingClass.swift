@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 /// The product shipping class API allows you to create, view, update, and delete individual shipping classes.
-public class WooShippingClass: Mappable {
+open class WooShippingClass: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

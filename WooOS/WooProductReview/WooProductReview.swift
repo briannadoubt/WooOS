@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-public class WooProductReview: Mappable {
+open class WooProductReview: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

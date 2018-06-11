@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 /// A variation of a product.
-public class WooProductVariation: Mappable {
+open class WooProductVariation: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

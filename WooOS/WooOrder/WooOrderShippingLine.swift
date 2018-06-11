@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+/// A line item on an order used to represent shipping information.
 public class WooOrderShippingLine: Mappable {
     
     /// Item ID.

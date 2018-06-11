@@ -5,7 +5,7 @@ import ObjectMapper
 ///
 /// - Discussion:
 ///   - While it is tempting to use the product images directly from the array of WooImage instances, it is better to retrieve all variations of the product by calling `ProductVariation.listFrom(product: <id>)` 
-public class WooProduct: Mappable {
+open class WooProduct: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

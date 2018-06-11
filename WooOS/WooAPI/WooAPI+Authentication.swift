@@ -66,7 +66,7 @@ public extension WooAPI {
     ///   - username: The chosen username by the customer.
     ///   - password: The given password by the customer.
     ///   - complete: Asynchronous callback containing a success flag and an error string if failed. If unsuccessful: success = false, error = String.
-    func signUp(with firstName: String,
+    public func signUp(with firstName: String,
                 lastName: String,
                 username: String,
                 email: String,
@@ -143,7 +143,7 @@ public extension WooAPI {
     ///   - username: String of Username provided by User.
     ///   - password: String of Password provided by User.
     ///   - complete: Asynchronous callback containing a success flag and an error string if failed. If unsuccessful: success = false, error = String.
-    func login(with username: String,
+    public func login(with username: String,
                and password: String,
                then complete: @escaping WooCompletion.Token) {
         
@@ -210,7 +210,7 @@ public extension WooAPI {
     }
     
     /// Log user out by revoking the token on the server, deleting the token locally, and deleting the stored user in `WooOS.main`.
-    func logout(then complete: WooCompletion.Completion? = nil) {
+    public func logout(then complete: WooCompletion.Completion? = nil) {
         
         // Remove stored token
         UserDefaults.standard.set(nil, forKey: "token")

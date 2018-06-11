@@ -9,15 +9,15 @@
 import Foundation
 import ObjectMapper
 
-/// <#Description#>
+/// The status of an order.
 ///
-/// - pending: <#pending description#>
-/// - processing: <#processing description#>
-/// - onHold: <#onHold description#>
-/// - completed: <#completed description#>
-/// - cancelled: <#cancelled description#>
-/// - refunded: <#refunded description#>
-/// - failed: <#failed description#>
+/// - pending: Order is currently pending.
+/// - processing: Order is currently processing.
+/// - onHold: Order is currently on hold.
+/// - completed: Order has been completed.
+/// - cancelled: Order was cancelled.
+/// - refunded: Order has been successfully refunded.
+/// - failed: Order has failed.
 public enum WooOrderStatus: String {
     case pending = "pending"
     case processing = "processing"

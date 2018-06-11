@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-/// <#Description#>
+/// The shipping object for an order.
 public class WooShipping: Mappable {
     
     /// First name.

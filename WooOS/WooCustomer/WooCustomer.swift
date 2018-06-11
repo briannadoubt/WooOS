@@ -10,8 +10,8 @@ import Foundation
 import ObjectMapper
 import Locksmith
 
-/// <#Description#>
-public class WooCustomer: Mappable {
+/// Object representing a customer stored on WooCommerce.
+open class WooCustomer: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

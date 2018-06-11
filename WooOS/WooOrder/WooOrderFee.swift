@@ -9,6 +9,7 @@
 import Foundation
 import ObjectMapper
 
+/// An object representing a fee applied to an order.
 public class WooOrderFee: Mappable {
     
     /// Item ID.

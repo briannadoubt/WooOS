@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 /// The individual term of a product attribute. An attribute would be "Color", and the term would be "Blue".
-public class WooAttributeTerm: Mappable {
+open class WooAttributeTerm: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

@@ -9,8 +9,8 @@
 import Foundation
 import ObjectMapper
 
-/// <#Description#>
-public class WooCoupon: Mappable {
+/// An object representing a stored coupon in WooCommerce.
+open class WooCoupon: Mappable {
     
     /// Unique identifier for the object.
     var id: WooID?

@@ -9,7 +9,8 @@
 import Foundation
 import ObjectMapper
 
-public class WooOrderNote: Mappable {
+/// A note that is present on an order. These are status updates and some are added automatically
+open class WooOrderNote: Mappable {
     
     /// Unique identifier for the resource.
     var id: WooID?

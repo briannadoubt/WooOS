@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-/// <#Description#>
+/// The billing information associated with an order.
 public class WooBilling: Mappable {
     
     /// First name.
