@@ -46,7 +46,7 @@ public class WooAPI {
 
     
     /// The shared SessionManager instance for Alamofire.
-    public let alamofireManager: SessionManager = {
+    let alamofireManager: SessionManager = {
         
         // Build the session manager with the configured session.
         let manager = Alamofire.SessionManager(configuration: .default)
@@ -90,7 +90,9 @@ public class WooAPI {
     ///   - type: The type of object being requested, with associated slug.
     ///   - id: The unique ID of the object being requested.
     ///   - complete: Asynchronous callback containing a success flag, the object that was requested, and an error string if failed. If unsuccessful: success = false, object = nil, error = String.
-    func getObject<T: Mappable>(type request: WooRequestConvertible, then complete: WooCompletion.Object<T>? = nil) {
+    func getObject<T: Mappable>(type request: WooRequestConvertible,
+                                then complete: WooCompletion.Object<T>? = nil)
+    {
         
         // Get manager credentials if they exist
         let credentials = (try? managerURLCredential()) ?? URLCredential()
@@ -137,8 +139,6 @@ public class WooAPI {
         
         // Perform request
         alamofireManager.request(request)
-            // Authenticate the session.
-//            .authenticate(user: consumerKey, password: consumerSecret)
             // Handle response from request
             .responseJSON { jsonResponse in
                 
@@ -162,6 +162,11 @@ public class WooAPI {
                 // Confirm response data is in a JSON Array format.
                 guard let json = jsonResponse.value as? [[String : Any]] else {
                     complete?(false, nil, .couldNotParseJSON(description: "JSON error: could not parse into array of dictionaries."))
+                    return
+                }
+                
+                guard !json.isEmpty else {
+                    complete?(false, nil, .noObjectsFoundForGivenRequest(description: "No data was returned, no objects were found!"))
                     return
                 }
                 
