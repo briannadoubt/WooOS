@@ -1,6 +1,0 @@
-github "Alamofire/Alamofire" "4.7.2"
-github "Hearst-DD/ObjectMapper" "3.2.0"
-github "Quick/Nimble" "v7.1.2"
-github "Quick/Quick" "v1.3.0"
-github "braintree/braintree_ios" "4.15.1"
-github "matthewpalmer/Locksmith" "4.0.0"
