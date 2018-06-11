@@ -8,6 +8,10 @@
 
 import Foundation
 
-class WooBraintree {
+public class WooBraintree {
+    
+    static let tokenPath = "wp-json/woo-os/v1/braintree/token"
+    
+    
     
 }
