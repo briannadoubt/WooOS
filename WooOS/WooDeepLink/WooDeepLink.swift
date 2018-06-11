@@ -16,20 +16,20 @@ import Foundation
 public class WooDeepLink {
     
     /// The recognizer used to recognize product deep link.
-    var productRecognizer = DeepLinkRecognizer(deepLinkTypes: [ProductDeepLink.self])
+    public var productRecognizer = DeepLinkRecognizer(deepLinkTypes: [ProductDeepLink.self])
     
     /// The deep link object used to link to a product.
-    struct ProductDeepLink: DeepLink {
+    public struct ProductDeepLink: DeepLink {
         
         let productName: String
         let id: WooID
         
-        init(values: DeepLinkValues) {
+        public init(values: DeepLinkValues) {
             id = values.path["id"] as! WooID
             productName = values.path["productName"] as! String
         }
         
-        static let template = DeepLinkTemplate()
+        public static let template = DeepLinkTemplate()
             .term("shop")
             .string(named: "productName")
             .string(named: "id")

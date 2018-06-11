@@ -13,115 +13,115 @@ import ObjectMapper
 open class WooProductVariation: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// The date the variation was created, in the site’s timezone.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date the variation was last modified, in the site’s timezone.
-    var dateModified: Date?
+    public var dateModified: Date?
     
     /// Variation description.
-    var productDescription: String?
+    public var productDescription: String?
     
     /// Variation URL.
-    var permalink: URL?
+    public var permalink: URL?
     
     /// Unique identifier.
-    var sku: String?
+    public var sku: String?
     
     /// Current variation price.
-    var price: Float?
+    public var price: Float?
     
     /// Variation regular price.
-    var regularPrice: Float?
+    public var regularPrice: Float?
     
     /// Variation sale price.
-    var salePrice: Float?
+    public var salePrice: Float?
     
     /// Start date of sale price, in the site’s timezone.
-    var dateOnSaleFrom: Date?
+    public var dateOnSaleFrom: Date?
     
     /// Start date of sale price, as GMT.
-    var dateOnSaleFromGMT: Date?
+    public var dateOnSaleFromGMT: Date?
     
     /// End date of sale price, in the site’s timezone.
-    var dateOnSaleTo: Date?
+    public var dateOnSaleTo: Date?
     
     /// End date of sale price, in the site’s timezone.
-    var dateOnSaleToGMT: Date?
+    public var dateOnSaleToGMT: Date?
     
     /// Shows if the variation is on sale.
-    var onSale: Bool?
+    public var onSale: Bool?
     
     /// Define if the attribute is visible on the “Additional information” tab in the product’s page. Default is true.
-    var visible: Bool? = true
+    public var visible: Bool? = true
     
     /// Shows if the variation can be bought.
-    var purchasable: Bool?
+    public var purchasable: Bool?
     
     /// If the variation is virtual. Default is false.
-    var virtual: Bool? = false
+    public var virtual: Bool? = false
     
     /// If the variation is downloadable. Default is false.
-    var downloadable: Bool? = false
+    public var downloadable: Bool? = false
     
     /// List of downloadable files. See ProductVariationDownload properties
-    var downloads: [WooDownload]?
+    public var downloads: [WooDownload]?
     
     /// Number of times downloadable files can be downloaded after purchase. Default is -1.
-    var downloadLimit: Int? = -1
+    public var downloadLimit: Int? = -1
     
     /// Number of days until access to downloadable files expires. Default is -1.
-    var downloadExiry: Int? = -1
+    public var downloadExiry: Int? = -1
     
     /// Tax status. Options: taxable, shipping and none. Default is taxable.
-    var taxStatus: WooTaxStatus? = WooTaxStatus.taxable
+    public var taxStatus: WooTaxStatus? = WooTaxStatus.taxable
     
     /// Tax class.
-    var taxClass: String?
+    public var taxClass: String?
     
     /// Stock management at variation level. Default is false.
-    var manageStock: Bool? = false
+    public var manageStock: Bool? = false
     
     /// Stock quantity.
-    var stockQuantity: Int?
+    public var stockQuantity: Int?
     
     /// Controls whether or not the variation is listed as “in stock” or “out of stock” on the frontend. Default is true.
-    var inStock: Bool? = true
+    public var inStock: Bool? = true
     
     /// If managing stock, this controls if backorders are allowed. Options: no, notify and yes. Default is no.
-    var backorders: WooBackorder? = .no
+    public var backorders: WooBackorder? = .no
     
     /// Shows if backorders are allowed.
-    var backOrdersAllowed: Bool?
+    public var backOrdersAllowed: Bool?
     
     /// Shows if the variation is on backordered.
-    var backordered: Bool?
+    public var backordered: Bool?
     
     /// Variation weight.
-    var weight: String?
+    public var weight: String?
     
     /// Variation dimensions. See ProductVariationDimensions properties.
-    var dimensions: WooDimensions?
+    public var dimensions: WooDimensions?
     
     /// Shipping class slug.
-    var shippingClass: String?
+    public var shippingClass: String?
     
     /// Shipping class ID.
-    var shippingClassID: WooID?
+    public var shippingClassID: WooID?
     
     /// Variation image data. See ProductVariationImage properties.
-    var image: WooImage?
+    public var image: WooImage?
     
     /// List of attributes. See ProductVariationAttribute properties
-    var attributes: [WooAttribute]?
+    public var attributes: [WooAttribute]?
     
     /// Menu order, used to custom sort products.
-    var menuOrder: Int?
+    public var menuOrder: Int?
     
     /// Meta data. See Product variation - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     public required init?(map: Map) { }
     

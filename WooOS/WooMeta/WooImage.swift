@@ -13,34 +13,34 @@ import ObjectMapper
 public class WooImage: Mappable {
     
     /// The ID of the image.
-    var id: WooID?
+    public var id: WooID?
     
     /// The date this image was uploaded.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date this image was uploaded in GMT.
-    var dateCreatedGMT: Date?
+    public var dateCreatedGMT: Date?
     
     /// The date this image was modified.
-    var dateModified: Date?
+    public var dateModified: Date?
     
     /// The date this image was modified in GMT.
-    var dateModifiedGMT: Date?
+    public var dateModifiedGMT: Date?
     
     /// The source URL of the image on the server.
-    var src: URL?
+    public var src: URL?
     
     /// Image name.
-    var name: String?
+    public var name: String?
     
     /// The title of the image on WooCommerce.
-    var title: String?
+    public var title: String?
     
     /// The Alt description of the image on WooCommerce.
-    var alt: String?
+    public var alt: String?
     
     /// Image position. 0 means that the image is featured.
-    var position: Int?
+    public var position: Int?
     
     public required init?(map: Map) { }
     

@@ -13,22 +13,22 @@ import ObjectMapper
 open class WooAttributeTerm: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// Term name.
-    var name: String?
+    public var name: String?
     
     /// An alphanumeric identifier for the resource unique to its type.
-    var slug: String?
+    public var slug: String?
     
     /// HTML description of the resource.
-    var description: String?
+    public var description: String?
     
     /// Menu order, used to custom sort the resource.
-    var menuOrder: Int?
+    public var menuOrder: Int?
     
     /// Number of published products for the resource.
-    var count: Int?
+    public var count: Int?
     
     public required init?(map: Map) { }
     

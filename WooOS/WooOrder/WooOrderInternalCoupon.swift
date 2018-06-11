@@ -13,19 +13,19 @@ import ObjectMapper
 public class WooOrderInternalCoupon: Mappable {
     
     /// Item ID.
-    var id: WooID?
+    public var id: WooID?
     
     /// Fee name.
-    var code: String?
+    public var code: String?
     
     /// Tax class of fee.
-    var discount: String?
+    public var discount: String?
     
     /// Tax status of fee. Options: taxable and none.
-    var discountTax: WooOrderTaxable?
+    public var discountTax: WooOrderTaxable?
     
     /// Meta data. See Order - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     required public init?(map: Map) { }
     

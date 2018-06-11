@@ -13,31 +13,31 @@ import ObjectMapper
 open class WooRefund: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// The date the order refund was created, in the site’s timezone.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date the order refund was created, as GMT.
-    var dateCreatedGMT: Date?
+    public var dateCreatedGMT: Date?
     
     /// Refund amount.
-    var amount: Float?
+    public var amount: Float?
     
     /// Reason for refund.
-    var reason: String?
+    public var reason: String?
     
     /// User ID of user who created the refund.
-    var refundedBy: Int?
+    public var refundedBy: Int?
     
     /// Meta data. See Order refund - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     /// Line items data. See Order refund - Line items properties
-    var lineItems: [WooOrderLineItem]?
+    public var lineItems: [WooOrderLineItem]?
     
     /// When true, the payment gateway API is used to generate the refund. Default is true.
-    var apiRefund: Bool?
+    public var apiRefund: Bool?
     
     required public init?(map: Map) { }
     

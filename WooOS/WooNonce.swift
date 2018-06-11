@@ -11,10 +11,10 @@ import ObjectMapper
 
 public class WooNonce: ImmutableMappable {
     
-    var status: String
-    var controller: String
-    var method: String
-    var nonce: String
+    public var status: String
+    public var controller: String
+    public var method: String
+    public var nonce: String
     
     required public init(map: Map) throws {
         status = try map.value("status")

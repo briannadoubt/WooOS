@@ -8,210 +8,211 @@ import ObjectMapper
 open class WooProduct: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// Product name.
-    var name: String?
+    public var name: String?
     
     /// Product slug.
-    var slug: String?
+    public var slug: String?
     
     /// Product URL.
-    var permalink: URL?
+    public var permalink: URL?
     
     /// The date the product was created, in the site’s timezone.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date the product was created, as GMT.
-    var dateCreatedGMT: Date?
+    public var dateCreatedGMT: Date?
     
     /// The date the product was last modified, in the site’s timezone.
-    var dateModified: Date?
+    public var dateModified: Date?
     
     /// The date the product was last modified, as GMT.
-    var dateModifiedGMT: Date?
+    public var dateModifiedGMT: Date?
     
     /// Product type. Options: simple, grouped, external and variable. Default is simple.
-    var type: WooProductType? = .simple
+    public var type: WooProductType? = .simple
     
     /// Product status (post status). Options: draft, pending, private and publish. Default is publish.
-    var status: WooProductStatus? = .publish
+    public var status: WooProductStatus? = .publish
     
     /// Featured product. Default is false.
-    var featured: Bool? = false
+    public var featured: Bool? = false
     
     /// Catalog visibility. Options: visible, catalog, search and hidden. Default is visible.
-    var catalogVisibility: WooProductCatalogVisibility? = .visible
+    public var catalogVisibility: WooProductCatalogVisibility? = .visible
     
     /// Product description.
-    var productDescription: String?
+    public var productDescription: String?
     
     /// Product short description.
-    var shortDescription: String?
+    public var shortDescription: String?
     
     /// Unique identifier.
-    var sku: String?
+    public var sku: String?
     
     /// Current product price.
-    var price: Float?
+    public var price: Float?
     
     /// Product regular price.
-    var regularPrice: Float?
+    public var regularPrice: Float?
     
     /// Product sale price.
-    var salePrice: Float?
+    public var salePrice: Float?
     
     /// Start date of sale price, in the site’s timezone.
-    var dateOnSaleFrom: Date?
+    public var dateOnSaleFrom: Date?
     
     /// Start date of sale price, as GMT.
-    var dateOnSaleFromGMT: Date?
+    public var dateOnSaleFromGMT: Date?
     
     /// End date of sale price, in the site’s timezone.
-    var dateOnSaleTo: Date?
+    public var dateOnSaleTo: Date?
     
     /// End date of sale price, in the site’s timezone.
-    var dateOnSaleToGMT: Date?
+    public var dateOnSaleToGMT: Date?
     
     /// Price formatted in HTML.
-    var priceHtml: String?
+    public var priceHtml: String?
     
     /// Shows if the product is on sale.
-    var onSale: Bool?
+    public var onSale: Bool?
     
     /// Shows if the product can be bought.
-    var purchasable: Bool?
+    public var purchasable: Bool?
     
     /// Amount of sales.
-    var totalSales: Int?
+    public var totalSales: Int?
     
     /// If the product is virtual. Default is false.
-    var virtual: Bool? = false
+    public var virtual: Bool? = false
     
     /// If the product is downloadable. Default is false.
-    var downloadable: Bool? = false
+    public var downloadable: Bool? = false
     
     /// List of downloadable files. See ProductDownload class properties
-    var downloads: [WooDownload]?
+    public var downloads: [WooDownload]?
     
     /// Number of times downloadable files can be downloaded after purchase. Default is -1.
-    var downloadLimit: Int? = -1
+    public var downloadLimit: Int? = -1
     
     /// Number of days until access to downloadable files expires. Default is -1.
-    var downloadExpiry: Int? = -1
+    public var downloadExpiry: Int? = -1
     
     /// Product external URL. Only for external products.
-    var externalURL: URL?
+    public var externalURL: URL?
     
     /// Product external button text. Only for external products.
-    var buttonText: String?
+    public var buttonText: String?
     
     /// Tax status. Options: taxable, shipping and none. Default is taxable.
-    var taxStatus: WooTaxStatus? = .taxable
+    public var taxStatus: WooTaxStatus? = .taxable
     
     /// Tax class.
-    var taxClass: String?
+    public var taxClass: String?
     
     /// Stock management at product level. Default is false.
-    var manageStock: Bool? = false
+    public var manageStock: Bool? = false
     
     /// Stock quantity.
-    var stockQuantity: Int?
+    public var stockQuantity: Int?
     
     /// Controls whether or not the product is listed as “in stock” or “out of stock” on the frontend. Default is true.
-    var inStock: Bool? = true
+    public var inStock: Bool? = true
     
     /// If managing stock, this controls if backorders are allowed. Options: no, notify and yes. Default is no.
-    var backorders: WooBackorder? = .no
+    public var backorders: WooBackorder? = .no
     
     /// Shows if backorders are allowed.
-    var backordersAllowed: Bool?
+    public var backordersAllowed: Bool?
     
     /// Shows if the product is on backordered.
-    var backordered: Bool?
+    public var backordered: Bool?
     
     /// Allow one item to be bought in a single order. Default is false.
-    var soldIndividually: Bool? = false
+    public var soldIndividually: Bool? = false
     
     /// Product weight.
-    var weight: String?
+    public var weight: String?
     
     /// Product dimensions. See ProductDimensions class properties
-    var dimensions: WooDimensions?
+    public var dimensions: WooDimensions?
     
     /// Shows if the product need to be shipped.
-    var shippingRequired: Bool?
+    public var shippingRequired: Bool?
     
     /// Shows whether or not the product shipping is taxable.
-    var shippingTaxable: Bool?
+    public var shippingTaxable: Bool?
     
     /// Shipping class slug.
-    var shippingClass: String?
+    public var shippingClass: String?
     
     /// Shipping class ID.
-    var shippingClassId: Int?
+    public var shippingClassId: Int?
     
     /// Allow reviews. Default is true.
-    var reviewsAllowed: Bool? = true
+    public var reviewsAllowed: Bool? = true
     
-    var reviews: [WooProductReview]?
+    /// The reviews associated with the product.
+    public var reviews: [WooProductReview]?
     
     /// Reviews average rating.
-    var averageRating: String?
+    public var averageRating: String?
     
     /// Amount of reviews that the product have.
-    var ratingCount: Int?
+    public var ratingCount: Int?
     
     /// List of related products IDs.
-    var relatedIds: [WooID]?
+    public var relatedIds: [WooID]?
     
     /// List of up-sell products IDs.
-    var upsellIds: [WooID]?
+    public var upsellIds: [WooID]?
     
     /// List of cross-sell products IDs.
-    var crossSellIds: [WooID]?
+    public var crossSellIds: [WooID]?
     
     /// Product parent ID.
-    var parentId: WooID?
+    public var parentId: WooID?
     
     /// Optional note to send the customer after purchase.
-    var purchaseNote: String?
+    public var purchaseNote: String?
     
     /// List of categories. See InternalProductCategory class properties.
-    var categories: [WooCategory]?
+    public var categories: [WooCategory]?
     
     /// List of tags. See  properties
-    var tags: [WooTag]?
+    public var tags: [WooTag]?
     
     /// List of images. See ProductImage class properties
-    var images: [WooImage]?
+    public var images: [WooImage]?
     
     /// List of attributes. See ProductAttribute struct properties
-    var attributes: [WooAttribute]?
+    public var attributes: [WooAttribute]?
     
     /// Defaults variation attributes. See ProductAttribute struct properties
-    var defaultAttributes: [WooAttribute]?
+    public var defaultAttributes: [WooAttribute]?
     
     /// List of variations IDs.
-    var variationIDs: [WooID]?
+    public var variationIDs: [WooID]?
     
     /// List of product variations associated to this product.
-    var variations: [WooProductVariation]?
+    public var variations: [WooProductVariation]?
     
     /// List of grouped products ID.
-    var groupedProducts: [WooID]?
+    public var groupedProducts: [WooID]?
     
     /// Menu order, used to custom sort products.
-    var menuOrder: Int?
+    public var menuOrder: Int?
     
     /// Meta data. See Product - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     /// Links to web version
-    var url: URL?
+    public var url: URL?
     
     /// Link to collection
-    var collectionURL: URL?
+    public var collectionURL: URL?
 
     required public init?(map: Map) { }
 
@@ -323,12 +324,12 @@ open class WooProduct: Mappable {
     /// - Parameters:
     ///   - id: ID of the product to download.
     ///   - complete: WooCompletion Object completion
-    static func get<T: WooProduct>(product: Int,
+    public static func get<T: WooProduct>(product: Int,
                                    then complete: WooCompletion.Object<T>? = nil) {
         WooOS.main.api.getObject(type: .publicProduct(id: product), then: complete)
     }
     
-    static func getComplete<T: WooProduct>(product: Int,
+    public static func getComplete<T: WooProduct>(product: Int,
                                            then complete: WooCompletion.Object<T>? = nil) {
     }
 
@@ -337,7 +338,7 @@ open class WooProduct: Mappable {
     /// - Parameters:
     ///   - parameters: The prooduct request parameters defining which products to download.
     ///   - complete: Asynchronous completion containing a success flag, the list of products, and an optional error.
-    static func list<T: WooProduct>(with parameters: [WooProductRequestParameter]? = nil,
+    public static func list<T: WooProduct>(with parameters: [WooProductRequestParameter]? = nil,
                                               then complete: WooCompletion.List<T>?) {
         WooOS.main.api.getList(of: .publicProducts(parameters: parameters), then: complete)
     }

@@ -5,41 +5,41 @@ import ObjectMapper
 open class WooCategory: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// Category name.
-    var name: String?
+    public var name: String?
     
     /// An alphanumeric identifier for the resource unique to its type.
-    var slug: String?
+    public var slug: String?
     
     /// The ID for the parent of the resource.
-    var parent: WooID?
+    public var parent: WooID?
     
     /// HTML description of the resource.
-    var description: String?
+    public var description: String?
     
     /// Category archive display type. Options: default, products, subcategories and both. Default is default.
-    var display: WooCategoryDisplay? = .defaultDisplay
+    public var display: WooCategoryDisplay? = .defaultDisplay
     
     /// Image data. See Product category - Image properties
-    var image: WooImage?
+    public var image: WooImage?
     
     /// Menu order, used to custom sort the resource.
-    var menuOrder: Int?
+    public var menuOrder: Int?
     
     /// Number of published products for the resource.
-    var count: Int?
+    public var count: Int?
     
     /// Links to web version
-    var url: URL?
+    public var url: URL?
     
     /// Link to collection
-    var collectionURLs: URL?
+    public var collectionURLs: URL?
 
     required public init?(map: Map) {}
 
-    init() {}
+    public init() {}
 
     public func mapping(map: Map) {
         id <- map["id"]

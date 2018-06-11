@@ -13,28 +13,28 @@ import ObjectMapper
 public class WooOrderTaxLine: Mappable {
     
     /// Item ID.
-    var id: WooID?
+    public var id: WooID?
     
     /// Tax rate code.
-    var rateCode: String?
+    public var rateCode: String?
     
     /// Tax rate ID.
-    var rateID: WooID?
+    public var rateID: WooID?
     
     /// Tax rate label.
-    var label: String?
+    public var label: String?
     
     /// Show if is a compound tax rate.
-    var compound: Bool?
+    public var compound: Bool?
     
     /// Tax total (not including shipping taxes).
-    var taxTotal: String?
+    public var taxTotal: String?
     
     /// Shipping tax total.
-    var shippingTaxTotal: String?
+    public var shippingTaxTotal: String?
     
     /// Meta data. See Order - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     required public init?(map: Map) { }
     

@@ -9,17 +9,17 @@
 import Foundation
 import ObjectMapper
 
-/// <#Description#>
+/// A Meta data object found in WooCommerce requests.
 public class WooMetaData: Mappable {
     
     /// Meta ID.
-    var id: String?
+    public var id: String?
     
     /// Meta key.
-    var key: String?
+    public var key: String?
     
     /// Meta value.
-    var value: String?
+    public var value: String?
     
     public required init?(map: Map) { }
     

@@ -13,19 +13,19 @@ import ObjectMapper
 open class WooOrderNote: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// The date the order note was created, in the site’s timezone.
-    var dateCreated: String?
+    public var dateCreated: String?
     
     /// The date the order note was created, as GMT.
-    var dateCreatedGMT: String?
+    public var dateCreatedGMT: String?
     
     /// Order note content.
-    var note: String?
+    public var note: String?
     
     /// If true, the note will be shown to customers and they will be notified. If false, the note will be for admin reference only. Default is false.
-    var customerNote: Bool? = false
+    public var customerNote: Bool? = false
     
     required public init?(map: Map) { }
     

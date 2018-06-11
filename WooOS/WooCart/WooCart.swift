@@ -13,15 +13,15 @@ import Alamofire
 public class WooCart {
     
     /// The current state of the cart in the checkout process.
-    var state: WooCartState = .shopping
+    public var state: WooCartState = .shopping
     
     /// Products currently in the cart
-    var products: [WooProduct] = []
+    public var products: [WooProduct] = []
     
     /// The order that is currently being built by the current cart.
-    var order: WooOrder!
+    public var order: WooOrder!
     
-    init() {
+    public init() {
         order = WooOrder()
         // TODO: Check WooCommerce for active cart.
     }
@@ -29,7 +29,7 @@ public class WooCart {
     /// Check each attribute to assure that they each have a selected option.
     ///
     /// - Returns: WooAttribute if this attribute has not been selected by user.
-    class func firstUnselectedAttribute(in product: WooProduct) -> WooAttribute? {
+    public class func firstUnselectedAttribute(in product: WooProduct) -> WooAttribute? {
         // If there are attributes available for this product, check to make sure they are selected.
         guard
             // Unwrap attributes
@@ -65,7 +65,7 @@ public class WooCart {
     /// - Parameters:
     ///   - product: The product to add to the cart.
     ///   - complete: Optional completion containing a success flag and an error string if success is false.
-    func add(quantity: Int,
+    public func add(quantity: Int,
              product: WooProduct,
              with variation: WooProductVariation? = nil,
              then complete: WooCompletion.Success? = nil) {
@@ -95,7 +95,7 @@ public class WooCart {
         complete?(true, nil)
     }
     
-    func changeState(to newState: WooCartState) {
+    public func changeState(to newState: WooCartState) {
         
         self.state = newState
         

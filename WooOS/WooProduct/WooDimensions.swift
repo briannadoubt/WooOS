@@ -13,13 +13,13 @@ import ObjectMapper
 public class WooDimensions: Mappable {
     
     /// Product or Variation length.
-    var length: String?
+    public var length: String?
     
     /// Product or Variation width.
-    var width: String?
+    public var width: String?
     
     /// Product or Variation height.
-    var height: String?
+    public var height: String?
     
     public required init?(map: Map) { }
     

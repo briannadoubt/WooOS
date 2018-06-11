@@ -5,133 +5,133 @@ import ObjectMapper
 open class WooOrder: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// Parent order ID.
-    var parentID: WooID?
+    public var parentID: WooID?
     
     /// Order number.
-    var number: String?
+    public var number: String?
     
     /// Order key.
-    var orderKey: String?
+    public var orderKey: String?
     
     /// Shows where the order was created.
-    var createdVia: String?
+    public var createdVia: String?
     
     /// Version of WooCommerce which last updated the order.
-    var version: Int?
+    public var version: Int?
     
     /// Order status. Options: pending, processing, on-hold, completed, cancelled, refunded and failed. Default is pending.
-    var status: WooOrderStatus? = .pending
+    public var status: WooOrderStatus? = .pending
     
     /// Currency the order was created with, in ISO format. Options: AED, AFN, ALL, AMD, ANG, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BGN, BHD, BIF, BMD, BND, BOB, BRL, BSD, BTC, BTN, BWP, BYR, BZD, CAD, CDF, CHF, CLP, CNY, COP, CRC, CUC, CUP, CVE, CZK, DJF, DKK, DOP, DZD, EGP, ERN, ETB, EUR, FJD, FKP, GBP, GEL, GGP, GHS, GIP, GMD, GNF, GTQ, GYD, HKD, HNL, HRK, HTG, HUF, IDR, ILS, IMP, INR, IQD, IRR, IRT, ISK, JEP, JMD, JOD, JPY, KES, KGS, KHR, KMF, KPW, KRW, KWD, KYD, KZT, LAK, LBP, LKR, LRD, LSL, LYD, MAD, MDL, MGA, MKD, MMK, MNT, MOP, MRO, MUR, MVR, MWK, MXN, MYR, MZN, NAD, NGN, NIO, NOK, NPR, NZD, OMR, PAB, PEN, PGK, PHP, PKR, PLN, PRB, PYG, QAR, RON, RSD, RUB, RWF, SAR, SBD, SCR, SDG, SEK, SGD, SHP, SLL, SOS, SRD, SSP, STD, SYP, SZL, THB, TJS, TMT, TND, TOP, TRY, TTD, TWD, TZS, UAH, UGX, USD, UYU, UZS, VEF, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR and ZMW. Default is USD.
-    var currency: WooCurrency? = .usd
+    public var currency: WooCurrency? = .usd
     
     /// The date the order was created, in the site’s timezone.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date the order was created, as GMT.
-    var dateCreatedGMT: Date?
+    public var dateCreatedGMT: Date?
     
     /// The date the order was last modified, in the site’s timezone.
-    var dateModified: Date?
+    public var dateModified: Date?
     
     /// The date the order was last modified, as GMT.
-    var dateModifiedGMT: Date?
+    public var dateModifiedGMT: Date?
     
     /// Total discount amount for the order.
-    var discountTotal: String?
+    public var discountTotal: String?
     
     /// Total discount tax amount for the order.
-    var discountTax: String?
+    public var discountTax: String?
     
     /// Total shipping amount for the order.
-    var shippingTotal: String?
+    public var shippingTotal: String?
     
     /// Total shipping tax amount for the order.
-    var shippingTax: String?
+    public var shippingTax: String?
     
     /// Sum of line item taxes only.
-    var cartTax: String?
+    public var cartTax: String?
     
     /// Grand total.
-    var total: String?
+    public var total: String?
     
     /// Sum of all taxes.
-    var totalTax: String?
+    public var totalTax: String?
     
     /// True the prices included tax during checkout.
-    var pricesIncludingTax: Bool?
+    public var pricesIncludingTax: Bool?
     
     /// User ID who owns the order. 0 for guests. Default is 0.
-    var customerID: WooID?
+    public var customerID: WooID?
     
     /// Customer’s IP address.
-    var customerIPAddress: String?
+    public var customerIPAddress: String?
     
     /// User agent of the customer.
-    var customerUserAgent: String?
+    public var customerUserAgent: String?
     
     /// Note left by customer during checkout.
-    var customerNote: String?
+    public var customerNote: String?
     
     /// Billing address. See Order - Billing properties
-    var billing: WooBilling?
+    public var billing: WooBilling?
     
     /// Shipping address. See Order - Shipping properties
-    var shipping: WooShipping?
+    public var shipping: WooShipping?
     
     /// Payment method ID.
-    var paymentMethod: String?
+    public var paymentMethod: String?
     
     /// Payment method title.
-    var paymentMethodTitle: String?
+    public var paymentMethodTitle: String?
     
     /// Unique transaction ID.
-    var transactionID: String?
+    public var transactionID: String?
     
     /// The date the order was paid, in the site’s timezone.
-    var datePaid: Date?
+    public var datePaid: Date?
     
     /// The date the order was paid, as GMT.
-    var datePaidGMT: Date?
+    public var datePaidGMT: Date?
     
     /// The date the order was completed, in the site’s timezone.
-    var dateCompleted: Date?
+    public var dateCompleted: Date?
     
     /// The date the order was completed, as GMT.
-    var dateCompletedGMT: Date?
+    public var dateCompletedGMT: Date?
     
     /// MD5 hash of cart items to ensure orders are not modified.
-    var cartHash: String?
+    public var cartHash: String?
     
     /// Meta data. See Order - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     /// Line items data. See Order - Line items properties
-    var lineItems: [WooOrderLineItem]?
+    public var lineItems: [WooOrderLineItem]?
     
     /// Tax lines data. See Order - Tax lines properties
-    var taxLines: [WooOrderTaxLine]?
+    public var taxLines: [WooOrderTaxLine]?
     
     /// Shipping lines data. See Order - Shipping lines properties
-    var shippingLines: [WooOrderShippingLine]?
+    public var shippingLines: [WooOrderShippingLine]?
     
     /// Fee lines data. See Order - Fee lines properties
-    var feeLines: [WooOrderFee]?
+    public var feeLines: [WooOrderFee]?
     
     /// Coupons line data. See Order - Coupon lines properties
-    var couponLines: [WooOrderInternalCoupon]?
+    public var couponLines: [WooOrderInternalCoupon]?
     
     /// List of refunds. See Order - Refunds properties
-    var refunds: [WooOrderRefund]?
+    public var refunds: [WooOrderRefund]?
     
     /// Define if the order is paid. It will set the status to processing and reduce stock items. Default is false.
-    var setPaid: Bool? = false
+    public var setPaid: Bool? = false
 
     /// When initialized, WooOrder attempts to set the customerID from the currently signed in customer.
-    init() {
+    public init() {
 //        if let currentCustomerID = WooOS.main.currentCustomer?.id {
 //            customerID = currentCustomerID
 //        }

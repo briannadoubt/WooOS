@@ -13,19 +13,19 @@ import ObjectMapper
 open class WooShippingClass: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// Shipping class name.
-    var name: String?
+    public var name: String?
     
     /// An alphanumeric identifier for the resource unique to its type.
-    var slug: String?
+    public var slug: String?
     
     /// HTML description of the resource.
-    var description: String?
+    public var description: String?
     
     /// Number of published products for the resource.
-    var count: String?
+    public var count: String?
     
     required public init?(map: Map) { }
     

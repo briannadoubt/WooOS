@@ -14,37 +14,37 @@ import Locksmith
 open class WooCustomer: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// The date the customer was created, in the site’s timezone.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date the order was created, as GMT.
-    var dateCreatedGMT: Date?
+    public var dateCreatedGMT: Date?
     
     /// The date the customer was last modified, in the site’s timezone.
-    var dateModified: Date?
+    public var dateModified: Date?
     
     /// The date the customer was last modified, as GMT.
-    var dateModifiedGMT: Date?
+    public var dateModifiedGMT: Date?
     
     /// The email address for the customer.
-    var email: String?
+    public var email: String?
     
     /// Customer first name.
-    var firstName: String?
+    public var firstName: String?
     
     /// Customer last name.
-    var lastName: String?
+    public var lastName: String?
     
     /// Customer role.
-    var role: String?
+    public var role: String?
     
     /// Customer login name.
-    var username: String?
+    public var username: String?
     
     /// Customer password.
-    var password: String? {
+    public var password: String? {
         get {
             guard
                 let username = WooOS.main.currentCustomer?.username,
@@ -74,27 +74,27 @@ open class WooCustomer: Mappable {
     }
     
     /// List of billing address data. See Customer - Billing properties
-    var billing: WooBilling?
+    public var billing: WooBilling?
     
     /// List of shipping address data. See Customer - Shipping properties
-    var shipping: WooShipping?
+    public var shipping: WooShipping?
     
     /// Is the customer a paying customer?
-    var isPayingCustomer: Bool?
+    public var isPayingCustomer: Bool?
     
     /// Quantity of orders made by the customer.
-    var ordersCount: Int?
+    public var ordersCount: Int?
     
     /// Total amount spent.
-    var totalSpent: String?
+    public var totalSpent: String?
     
     /// Avatar URL.
-    var avatarURL: URL?
+    public var avatarURL: URL?
     
     /// Meta data. See Customer - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
-    init() { }
+    public init() { }
     
     required public init?(map: Map) { }
     

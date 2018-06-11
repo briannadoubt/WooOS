@@ -13,13 +13,13 @@ import ObjectMapper
 public class WooDownload: Mappable {
     
     /// File MD5 hash.
-    var id: WooID?
+    public var id: WooID?
     
     /// File name.
-    var name: String?
+    public var name: String?
     
     /// File URL.
-    var file: URL?
+    public var file: URL?
     
     public required init?(map: Map) { }
     

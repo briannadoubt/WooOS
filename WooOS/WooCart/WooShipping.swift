@@ -13,31 +13,31 @@ import ObjectMapper
 public class WooShipping: Mappable {
     
     /// First name.
-    var firstName: String?
+    public var firstName: String?
     
     /// Last name.
-    var lastName: String?
+    public var lastName: String?
     
     /// Company name.
-    var company: String?
+    public var company: String?
     
     /// Address line 1
-    var address1: String?
+    public var address1: String?
     
     /// Address line 2
-    var address2: String?
+    public var address2: String?
     
     /// City name.
-    var city: String?
+    public var city: String?
     
     /// ISO code or name of the state, province or district.
-    var state: String?
+    public var state: String?
     
     /// Postal code.
-    var postcode: String?
+    public var postcode: String?
     
     /// Country code in ISO 3166-1 alpha-2 format.
-    var country: String?
+    public var country: String?
     
     public required init?(map: Map) { }
     

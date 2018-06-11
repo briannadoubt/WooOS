@@ -13,46 +13,46 @@ import ObjectMapper
 public class WooOrderLineItem: Mappable {
     
     /// Item ID.
-    var id: WooID?
+    public var id: WooID?
     
     /// Product name.
-    var name: String?
+    public var name: String?
     
     /// Product ID.
-    var productID: WooID?
+    public var productID: WooID?
     
     /// Variation ID, if applicable.
-    var variationID: WooID?
+    public var variationID: WooID?
     
     /// Quantity ordered.
-    var quantity: Int?
+    public var quantity: Int?
     
     /// Tax class of product.
-    var taxClass: Int?
+    public var taxClass: Int?
     
     /// Line subtotal (before discounts).
-    var subtotal: String?
+    public var subtotal: String?
     
     /// Line subtotal tax (before discounts).
-    var subtotalTax: String?
+    public var subtotalTax: String?
     
     /// Line total (after discounts).
-    var total: String?
+    public var total: String?
     
     /// Line total tax (after discounts).
-    var totalTax: String?
+    public var totalTax: String?
     
     /// Line taxes. See Order - Taxes properties
-    var taxes: [WooOrderTaxLine]?
+    public var taxes: [WooOrderTaxLine]?
     
     /// Meta data. See Order - Meta data properties
-    var metaData: [WooMetaData]?
+    public var metaData: [WooMetaData]?
     
     /// Product SKU.
-    var sku: String?
+    public var sku: String?
     
     /// Product price.
-    var price: String?
+    public var price: String?
     
     /// Initialize with the minimum parameters to `POST` a new lineItem to the order.
     ///
@@ -60,9 +60,10 @@ public class WooOrderLineItem: Mappable {
     ///   - product: The id of the product in the cart.
     ///   - variation: The optional variation id of the product of the line item.
     ///   - quantity: The quantity of the items being ordered.
-    init(from product: WooID, variation: WooID? = nil, quantity: Int) {
+    public init(from product: WooID, variation: WooID? = nil, quantity: Int) {
         productID = product
         variationID = variation
+        self.quantity = quantity
     }
     
     required public init?(map: Map) { }

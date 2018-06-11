@@ -38,7 +38,7 @@ public enum WooTagRequestParameter {
     case product(WooID)
     case slug(String)
     
-    var key: String {
+    public var key: String {
         switch self {
         case .context:
             return "context"
@@ -69,7 +69,7 @@ public enum WooTagRequestParameter {
         }
     }
     
-    var value: Any {
+    public var value: Any {
         switch self {
         case .context(let context):
             return context.rawValue

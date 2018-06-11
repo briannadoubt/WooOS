@@ -13,13 +13,13 @@ import ObjectMapper
 public class WooOrderRefund: Mappable {
     
     /// Refund ID.
-    var id: WooID?
+    public var id: WooID?
     
     /// Refund reason.
-    var reason: String?
+    public var reason: String?
     
     /// Refund total.
-    var total: String?
+    public var total: String?
     
     required public init?(map: Map) { }
     

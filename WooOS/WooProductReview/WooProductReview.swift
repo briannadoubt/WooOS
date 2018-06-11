@@ -12,28 +12,28 @@ import ObjectMapper
 open class WooProductReview: Mappable {
     
     /// Unique identifier for the resource.
-    var id: WooID?
+    public var id: WooID?
     
     /// The content of the review.
-    var review: String?
+    public var review: String?
     
     /// The date the review was created, in the site’s timezone.
-    var dateCreated: Date?
+    public var dateCreated: Date?
     
     /// The date the review was created, as GMT.
-    var dateCreatedGMT: Date?
+    public var dateCreatedGMT: Date?
     
     /// Review rating (0 to 5).
-    var rating: Int?
+    public var rating: Int?
     
     /// Reviewer name.
-    var name: String?
+    public var name: String?
     
     /// Reviewer email.
-    var email: String?
+    public var email: String?
     
     /// Shows if the reviewer bought the product or not.
-    var verified: Bool?
+    public var verified: Bool?
     
     required public init?(map: Map) { }
     
