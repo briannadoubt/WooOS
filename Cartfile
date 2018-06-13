@@ -1,4 +1,0 @@
-github "Alamofire/Alamofire" ~> 4.7
-github "matthewpalmer/Locksmith"
-github "Hearst-DD/ObjectMapper" ~> 3.2
-github "braintree/braintree_ios"

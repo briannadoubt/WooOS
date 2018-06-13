@@ -1,0 +1,6 @@
+framework module Locksmith {
+  umbrella header "Locksmith-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

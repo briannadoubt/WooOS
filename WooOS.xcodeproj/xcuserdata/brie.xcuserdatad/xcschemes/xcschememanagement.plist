@@ -4,52 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WooOS Demo.xcscheme</key>
+		<key>WooOS-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>22</integer>
 		</dict>
-		<key>WooOS-macOS.xcscheme_^#shared#^_</key>
+		<key>WooOS-macOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>25</integer>
 		</dict>
-		<key>WooOS-tvOS.xcscheme_^#shared#^_</key>
+		<key>WooOS-tvOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>24</integer>
 		</dict>
-		<key>WooOS-watchOS 2.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>WooOS-watchOS.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>WooOS.xcscheme_^#shared#^_</key>
+		<key>WooOS-watchOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>017E61DB20C2879900E94400</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>017E61E420C2879900E94400</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>23</integer>
 		</dict>
 	</dict>
 </dict>

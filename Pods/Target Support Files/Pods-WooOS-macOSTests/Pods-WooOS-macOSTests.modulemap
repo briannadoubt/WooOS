@@ -1,0 +1,6 @@
+framework module Pods_WooOS_macOSTests {
+  umbrella header "Pods-WooOS-macOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

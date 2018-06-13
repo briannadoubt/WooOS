@@ -1,0 +1,6 @@
+framework module Locksmith {
+  umbrella header "Locksmith-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

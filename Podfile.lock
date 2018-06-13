@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Braintree/Card (4.15.1):
+    - Braintree/Core
+  - Braintree/Core (4.15.1)
+  - Braintree/PaymentFlow (4.15.1):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.15.1):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (6.2.0):
+    - BraintreeDropIn/DropIn (= 6.2.0)
+  - BraintreeDropIn/DropIn (6.2.0):
+    - Braintree/Card (~> 4.11)
+    - Braintree/Core (~> 4.11)
+    - Braintree/PaymentFlow (~> 4.11)
+    - Braintree/UnionPay (~> 4.11)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (6.2.0)
+  - Locksmith (4.0.0)
+  - ObjectMapper (3.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BraintreeDropIn
+  - Locksmith
+  - ObjectMapper (~> 3.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Braintree
+    - BraintreeDropIn
+    - Locksmith
+    - ObjectMapper
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Braintree: acf4bd06f7f84ec69b33337c6b2265f112c53412
+  BraintreeDropIn: 4e80bce4bc2b430f2fb1af0cd13ff3223d2758d3
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+
+PODFILE CHECKSUM: 75f2275bf3e8a046694401e1602d1cfb1b1bd265
+
+COCOAPODS: 1.5.3
