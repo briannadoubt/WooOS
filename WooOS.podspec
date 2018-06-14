@@ -15,6 +15,8 @@ spec.requires_arc = true
 spec.source = { git: "https://github.com/bornbrie/WooOS.git", tag: "v#{spec.version}", submodules: true }
 spec.source_files = "WooOS/**/*.{h,swift}"
 
+
+
 spec.dependency 'Alamofire', '~> 4.6'
 spec.dependency 'ObjectMapper', '~> 3.0'
 spec.dependency 'Locksmith'
