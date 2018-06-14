@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 spec.name = "WooOS"
-spec.version = "0.1.13"
-spec.summary = "Cross-platform Swift SDK for WooCommerce"
+spec.version = "0.1.14"
+spec.summary = "WooCommerce Swift SDK for iOS, tvOS, watchOS, and macOS."
 spec.homepage = "https://github.com/bornbrie/WooOS"
 spec.license = { type: 'MIT', file: 'LICENSE' }
 spec.authors = { "Brianna Lee" => 'bornbrie@icloud.com' }
@@ -21,6 +21,7 @@ spec.dependency 'Alamofire', '~> 4.6'
 spec.dependency 'ObjectMapper', '~> 3.0'
 spec.dependency 'Locksmith'
 
+spec.ios.framework  = 'UIKit'
 spec.ios.dependency 'BraintreeDropIn'
 
 end
