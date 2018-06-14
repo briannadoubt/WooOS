@@ -374,12 +374,6 @@
 		01D7B17120D0985C00BBD56A /* WooShipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEB20D0985C00BBD56A /* WooShipping.swift */; };
 		01D7B17220D0985C00BBD56A /* WooShipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEB20D0985C00BBD56A /* WooShipping.swift */; };
 		01D7B17320D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
-		01D7B17420D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
-		01D7B17520D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
-		01D7B17620D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
-		01D7B17720D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
-		01D7B17820D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
-		01D7B17920D0985C00BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
 		01D7B17A20D0985C00BBD56A /* WooCartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFED20D0985C00BBD56A /* WooCartDelegate.swift */; };
 		01D7B17B20D0985C00BBD56A /* WooCartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFED20D0985C00BBD56A /* WooCartDelegate.swift */; };
 		01D7B17C20D0985D00BBD56A /* WooCartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFED20D0985C00BBD56A /* WooCartDelegate.swift */; };
@@ -577,6 +571,7 @@
 		01D7B23C20D0985D00BBD56A /* WooRefund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7B00D20D0985C00BBD56A /* WooRefund.swift */; };
 		01D7B23D20D0985D00BBD56A /* WooRefund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7B00D20D0985C00BBD56A /* WooRefund.swift */; };
 		01D7B23F20D098A600BBD56A /* WooOS_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D7B23E20D098A600BBD56A /* WooOS_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D7B24120D2BEF500BBD56A /* WooBraintree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D7AFEC20D0985C00BBD56A /* WooBraintree.swift */; };
 		0A30F579207612EC5C7505F7 /* Pods_WooOS_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746AD412657B887AA5F50468 /* Pods_WooOS_tvOSTests.framework */; };
 		30FE9A8264E47E780F1CEA53 /* Pods_WooOS_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E02F9FA3F27B3BF88EA961 /* Pods_WooOS_iOS.framework */; };
 		5D141252D5238DE0991B5421 /* Pods_WooOS_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8913EB193D133A0B204D1D /* Pods_WooOS_tvOS.framework */; };
@@ -1693,7 +1688,6 @@
 				01D7B11320D0985C00BBD56A /* WooAPI+Authentication.swift in Sources */,
 				01D7B08720D0985C00BBD56A /* WooCouponRequestParameter.swift in Sources */,
 				01D7B0F720D0985C00BBD56A /* WooOrderShippingLine.swift in Sources */,
-				01D7B17520D0985C00BBD56A /* WooBraintree.swift in Sources */,
 				01D7B07220D0985C00BBD56A /* WooShippingClassOrderBy.swift in Sources */,
 				01D7B0C620D0985C00BBD56A /* WooOrderInternalCoupon.swift in Sources */,
 				01D7B04820D0985C00BBD56A /* WooCategoryDisplay.swift in Sources */,
@@ -1780,7 +1774,6 @@
 				01D7B11420D0985C00BBD56A /* WooAPI+Authentication.swift in Sources */,
 				01D7B08820D0985C00BBD56A /* WooCouponRequestParameter.swift in Sources */,
 				01D7B0F820D0985C00BBD56A /* WooOrderShippingLine.swift in Sources */,
-				01D7B17620D0985C00BBD56A /* WooBraintree.swift in Sources */,
 				01D7B07320D0985C00BBD56A /* WooShippingClassOrderBy.swift in Sources */,
 				01D7B0C720D0985C00BBD56A /* WooOrderInternalCoupon.swift in Sources */,
 				01D7B04920D0985C00BBD56A /* WooCategoryDisplay.swift in Sources */,
@@ -1856,7 +1849,6 @@
 				01D7B06D20D0985C00BBD56A /* WooMetaData.swift in Sources */,
 				01D7B14620D0985C00BBD56A /* WooAPI.swift in Sources */,
 				01D7B0C820D0985C00BBD56A /* WooOrderInternalCoupon.swift in Sources */,
-				01D7B17720D0985C00BBD56A /* WooBraintree.swift in Sources */,
 				01D7B0BA20D0985C00BBD56A /* ObjectMapper+FloatTransform.swift in Sources */,
 				01D7B04320D0985C00BBD56A /* WooCategory.swift in Sources */,
 				01D7B1CB20D0985D00BBD56A /* WooProductStatus.swift in Sources */,
@@ -1955,7 +1947,6 @@
 				01D7B11620D0985C00BBD56A /* WooAPI+Authentication.swift in Sources */,
 				01D7B08A20D0985C00BBD56A /* WooCouponRequestParameter.swift in Sources */,
 				01D7B0FA20D0985C00BBD56A /* WooOrderShippingLine.swift in Sources */,
-				01D7B17820D0985C00BBD56A /* WooBraintree.swift in Sources */,
 				01D7B07520D0985C00BBD56A /* WooShippingClassOrderBy.swift in Sources */,
 				01D7B0C920D0985C00BBD56A /* WooOrderInternalCoupon.swift in Sources */,
 				01D7B04B20D0985C00BBD56A /* WooCategoryDisplay.swift in Sources */,
@@ -2031,7 +2022,6 @@
 				01D7B06F20D0985C00BBD56A /* WooMetaData.swift in Sources */,
 				01D7B14820D0985C00BBD56A /* WooAPI.swift in Sources */,
 				01D7B0CA20D0985C00BBD56A /* WooOrderInternalCoupon.swift in Sources */,
-				01D7B17920D0985C00BBD56A /* WooBraintree.swift in Sources */,
 				01D7B0BC20D0985C00BBD56A /* ObjectMapper+FloatTransform.swift in Sources */,
 				01D7B04520D0985C00BBD56A /* WooCategory.swift in Sources */,
 				01D7B1CD20D0985D00BBD56A /* WooProductStatus.swift in Sources */,
@@ -2202,11 +2192,11 @@
 				01D7B16620D0985C00BBD56A /* WooCart.swift in Sources */,
 				01D7B1B320D0985D00BBD56A /* WooCustomerRequestParameter.swift in Sources */,
 				01D7B1BA20D0985D00BBD56A /* WooProduct.swift in Sources */,
+				01D7B24120D2BEF500BBD56A /* WooBraintree.swift in Sources */,
 				01D7B09420D0985C00BBD56A /* WooCoupon.swift in Sources */,
 				01D7B06A20D0985C00BBD56A /* WooMetaData.swift in Sources */,
 				01D7B14320D0985C00BBD56A /* WooAPI.swift in Sources */,
 				01D7B0C520D0985C00BBD56A /* WooOrderInternalCoupon.swift in Sources */,
-				01D7B17420D0985C00BBD56A /* WooBraintree.swift in Sources */,
 				01D7B0B720D0985C00BBD56A /* ObjectMapper+FloatTransform.swift in Sources */,
 				01D7B04020D0985C00BBD56A /* WooCategory.swift in Sources */,
 				01D7B1C820D0985D00BBD56A /* WooProductStatus.swift in Sources */,
