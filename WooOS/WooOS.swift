@@ -2,7 +2,7 @@
 import Foundation
 import ObjectMapper
 
-/// This is the main class for all of WooOS, the SDK that allows developers to interface with the WooCommerce REST API.
+/// This is the main class for all of WooOS, the SDK that allows developers to interface with the WooOS REST API.
 public class WooOS {
     
     //  ------------------------

@@ -1,4 +1,7 @@
 
+install! 'cocoapods',
+         :warn_for_multiple_pod_sources => false
+
 target 'WooOS-iOS' do
   use_frameworks!
   platform :ios, '9.3'
@@ -53,4 +56,12 @@ target 'WooOS-watchOS' do
   pod 'ObjectMapper', '~> 3.2'
   pod 'Locksmith'
 
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |configuration|
+            configuration.build_settings['SWIFT_VERSION'] = "4.0"
+        end
+    end
 end
