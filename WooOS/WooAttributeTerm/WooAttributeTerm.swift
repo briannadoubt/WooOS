@@ -13,7 +13,7 @@ import ObjectMapper
 open class WooAttributeTerm: Mappable {
     
     /// Unique identifier for the resource.
-    public var id: Int?
+    public var id: WooID?
     
     /// Term name.
     public var name: String?
