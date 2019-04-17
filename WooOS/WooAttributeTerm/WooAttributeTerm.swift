@@ -13,31 +13,19 @@ import ObjectMapper
 open class WooAttributeTerm: Mappable {
     
     /// Unique identifier for the resource.
-    public var id: WooID?
+    public var id: Int?
     
     /// Term name.
     public var name: String?
     
-    /// An alphanumeric identifier for the resource unique to its type.
-    public var slug: String?
-    
-    /// HTML description of the resource.
-    public var description: String?
-    
-    /// Menu order, used to custom sort the resource.
-    public var menuOrder: Int?
-    
-    /// Number of published products for the resource.
-    public var count: Int?
+    // Options
+    public var option: String?
     
     public required init?(map: Map) { }
     
     public func mapping(map: Map) {
         id <- map["id"]
         name <- map["name"]
-        slug <- map["slug"]
-        description <- map["description"]
-        menuOrder <- map["menu_order"]
-        count <- map["count"]
+        option <- map["option"]
     }
 }
