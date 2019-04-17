@@ -115,7 +115,7 @@ open class WooProductVariation: Mappable {
     public var image: WooImage?
     
     /// List of attributes. See ProductVariationAttribute properties
-    public var attributes: [WooAttribute]?
+    public var attributes: [WooAttributeTerm]?
     
     /// Menu order, used to custom sort products.
     public var menuOrder: Int?
