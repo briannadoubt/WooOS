@@ -4,11 +4,10 @@ install! 'cocoapods',
 
 target 'WooOS-iOS' do
   use_frameworks!
-  platform :ios, '9.3'
+  platform :ios, '10.0'
 
   pod 'BraintreeDropIn'
-  pod 'Alamofire', '~> 4.7'
-  pod 'ObjectMapper', '~> 3.2'
+  pod 'Alamofire'
   pod 'Locksmith'
 
   target 'WooOS-iOSTests' do
@@ -20,10 +19,9 @@ end
 
 target 'WooOS-macOS' do
   use_frameworks!
-  platform :osx, '10.11'
+  platform :osx, '10.12'
 
-  pod 'Alamofire', '~> 4.7'
-  pod 'ObjectMapper', '~> 3.2'
+  pod 'Alamofire'
   pod 'Locksmith'
 
   target 'WooOS-macOSTests' do
@@ -37,8 +35,7 @@ target 'WooOS-tvOS' do
   use_frameworks!
   platform :tvos, '9.0'
 
-  pod 'Alamofire', '~> 4.7'
-  pod 'ObjectMapper', '~> 3.2'
+  pod 'Alamofire'
   pod 'Locksmith'
 
   target 'WooOS-tvOSTests' do
@@ -52,8 +49,7 @@ target 'WooOS-watchOS' do
   use_frameworks!
   platform :watchos, '2.0'
 
-  pod 'Alamofire', '~> 4.7'
-  pod 'ObjectMapper', '~> 3.2'
+  pod 'Alamofire'
   pod 'Locksmith'
 
 end
